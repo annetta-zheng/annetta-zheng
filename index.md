@@ -1,8 +1,9 @@
 ## Welcome to My Pages for CS/DS Courses @Berkeley
+Under construction, still...
 
 
 ### CS 61B Data Structures, SP 22
-[Course Page](https://inst.eecs.berkeley.edu/~cs61b/sp22/index.html)
+[Course Website](https://inst.eecs.berkeley.edu/~cs61b/sp22/index.html)
 
 ##### Project 1
 [Enigma](https://github.com/annetta-zheng/enigma)
