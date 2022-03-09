@@ -1,38 +1,57 @@
-## Welcome to My Pages for CS/DS Courses @Berkeley
-Under construction, still...
+t## Welcome to My Pages for CS/DS Projects
 
 
-### CS 61B Data Structures, SP 22
-[Course Website](https://inst.eecs.berkeley.edu/~cs61b/sp22/index.html)
-
-##### Project 1
+### Project 0 Blocks Puzzle Game
 [Enigma](https://github.com/annetta-zheng/enigma)
-
-
-
-## Header 2
-### Header 3
-
-```markdown
-Syntax highlighted code block
+For OOP, Data Structures in Java.
+    ##### Manually translate three letters using the following configuration file:
+    
+   The Settings Line and Input: 
+   ```
+      * B III II I maa (az) (mn)
+      asb 
+   ```
+    
+   Output: 
+    ```
+      wtt
+    ```
+   
+   Configuration: 
 ```
-- Bulleted
-- List
+    abcdefghijklmnopqrstuvwxyz
+    4 3
+    I Ma     (wordle) (is) (fun)
+    II Mb    (tears) (boing) (lucky)
+    III Mm   (quack) (froze) (twins) (glyph)
+    B R      (az) (by) (cx) (dw) (ev) (fu)
+             (gt) (hs) (ir) (jq) (kp) (lo) (mn)
+```             
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### Project 1 Enigma Machine
+[Enigma](https://github.com/annetta-zheng/enigma)
+For OOP, Data Structures in Java.
+    ##### Manually translate three letters using the following configuration file:
+    
+   The Settings Line and Input: 
+   ```
+      * B III II I maa (az) (mn)
+      asb 
+   ```
+    
+   Output: 
+    ```
+      wtt
+    ```
+   
+   Configuration: 
 ```
+    abcdefghijklmnopqrstuvwxyz
+    4 3
+    I Ma     (wordle) (is) (fun)
+    II Mb    (tears) (boing) (lucky)
+    III Mm   (quack) (froze) (twins) (glyph)
+    B R      (az) (by) (cx) (dw) (ev) (fu)
+             (gt) (hs) (ir) (jq) (kp) (lo) (mn)
+```             
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/annetta-zheng/annetta-zheng/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
