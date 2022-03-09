@@ -12,7 +12,6 @@ t## Welcome to My Pages for CS/DS Projects
 ### Project 1 Enigma Machine
 [Enigma](https://github.com/annetta-zheng/enigma)
 For OOP, Data Structures in Java.
-    ##### Manually translate three letters using the following configuration file:
     
    The Settings Line and Input: 
    ```
