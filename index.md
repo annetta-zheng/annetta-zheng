@@ -1,4 +1,4 @@
-t## Welcome to My Pages for CS/DS Projects
+## Welcome to My Pages for CS/DS Projects
 
 
 ### Project 0 Blocks Puzzle Game
