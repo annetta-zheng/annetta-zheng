@@ -1,4 +1,6 @@
 ## Welcome to My Pages for CS/DS Projects
+* Placeholder for Table of Content (Must not be removed) <newline>
+{:toc}
 
 
 ### Project - Blocks Puzzle Game
