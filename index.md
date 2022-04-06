@@ -1,5 +1,6 @@
 ## Welcome to My Pages for CS/DS Projects
 * Placeholder for Table of Content (Must not be removed) 
+* Blocks Puzzle Game [Blocks Code](https://github.com/annetta-zheng/Blocks)
 {:toc}
 
 
