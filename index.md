@@ -39,7 +39,8 @@ For OOP, Data Structures in Java.
              (gt) (hs) (ir) (jq) (kp) (lo) (mn)
 ```  
 
-========================
+=============================
+
 ### Ataxx Game
 [Ataxx Code](https://github.com/annetta-zheng/Ataxx)
 
