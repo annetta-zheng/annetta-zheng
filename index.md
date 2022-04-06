@@ -10,8 +10,9 @@
 [Demo Game] (https://www.cbc.ca/kidscbc2/content/games/blocks-puzzle/index.html)
 
 ![image](https://inst.eecs.berkeley.edu/~cs61b/sp22/materials/proj/proj0/img/figure1.png)
-![image](https://user-images.githubusercontent.com/67286396/157542546-95e9e541-91c9-4b81-9908-22c476265729.png)        
-========================
+![image](https://user-images.githubusercontent.com/67286396/157542546-95e9e541-91c9-4b81-9908-22c476265729.png)  
+
+------------------------------
 ### Enigma Machine
 [Enigma Code](https://github.com/annetta-zheng/enigma)
 
@@ -39,9 +40,7 @@ For OOP, Data Structures in Java.
              (gt) (hs) (ir) (jq) (kp) (lo) (mn)
 ```  
 
-
-
-=============================
+------------------------------
 
 ### Ataxx Game
 [Ataxx Code](https://github.com/annetta-zheng/Ataxx)
