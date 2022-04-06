@@ -37,7 +37,8 @@ For OOP, Data Structures in Java.
     III Mm   (quack) (froze) (twins) (glyph)
     B R      (az) (by) (cx) (dw) (ev) (fu)
              (gt) (hs) (ir) (jq) (kp) (lo) (mn)
-```           
+```  
+
 ========================
 ### Ataxx Game
 [Ataxx Code](https://github.com/annetta-zheng/Ataxx)
