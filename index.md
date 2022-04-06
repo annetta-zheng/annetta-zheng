@@ -1,5 +1,5 @@
 ## Welcome to My Pages for CS/DS Projects
-* Placeholder for Table of Content (Must not be removed) <newline>
+* Placeholder for Table of Content (Must not be removed) 
 {:toc}
 
 
