@@ -1,10 +1,12 @@
 ## Welcome to My Pages for CS/DS Projects
 
-- [Blocks Puzzle Game](#Project - Blocks Puzzle Game)
+- [Blocks Puzzle Game](#Blocks-Game)
+- [Enigma Machine](#Enigma-Machine)
+- [Ataxx Game](#Ataxx-Game)
 
 
-### Project - Blocks Puzzle Game
-[Blocks Code](https://github.com/annetta-zheng/Blocks)
+### Blocks Game
+[Blocks Puzzle Game Code](https://github.com/annetta-zheng/Blocks)
 
 [Demo Game] (https://www.cbc.ca/kidscbc2/content/games/blocks-puzzle/index.html)
 
@@ -12,7 +14,7 @@
 ![image](https://user-images.githubusercontent.com/67286396/157542546-95e9e541-91c9-4b81-9908-22c476265729.png)        
 
 
-### Project - Enigma Machine
+### Enigma Machine
 [Enigma Code](https://github.com/annetta-zheng/enigma)
 
 For OOP, Data Structures in Java.
@@ -39,7 +41,7 @@ For OOP, Data Structures in Java.
              (gt) (hs) (ir) (jq) (kp) (lo) (mn)
 ```             
 
-### Project - Ataxx Game
+### Ataxx Game
 [Ataxx Code](https://github.com/annetta-zheng/Ataxx)
 
 Minmax algorithm, alpha-bata pruning.
