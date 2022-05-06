@@ -1,5 +1,6 @@
 ## Welcome to My Pages for CS/DS Projects
 
+### Catalogue
 - [Blocks Puzzle Game](#Blocks-Game)
 - [Enigma Machine](#Enigma-Machine)
 - [Ataxx Game](#Ataxx-Game)
@@ -69,6 +70,7 @@ To make things even more interesting, you can place a set of blocks symmetricall
 [Gitlet Code](https://github.com/annetta-zheng/Gitlet)
 
 A [version-control system](https://gitlet.cs61bee.org) is essentially a backup system for related collections of files. 
+
 The main functionality that Gitlet supports is:
 1. Saving the contents of entire directories of files. In Gitlet, this is called committing, and the saved contents themselves are called commits.
 2. Restoring a version of one or more files or entire commits. In Gitlet, this is called checking out those files or that commit.
