@@ -79,11 +79,11 @@ The main functionality that Gitlet supports is:
 5. Merging changes made in one branch into another.
 6. Going remote, allowing collaboration with other people over the internet. 
 
-###### Internal Structure
+##### Internal Structure
 ![image](https://gitlet.cs61bee.org/image/commits-and-blobs.png)
 ![image](https://gitlet.cs61bee.org/image/split_point.png)
 
-###### Commands:
+##### Commands:
 By starting up the program `java gitlet.Main init`, it will create a repo directory and an initial commit through the command init().
 Based on the command run, structure of files will be saved.
 
@@ -104,7 +104,7 @@ Based on the command run, structure of files will be saved.
 14. java gitlet.Main merge [branch name]
 ```
 
-###### Sample Outputs:
+##### Sample Outputs:
 ```java gitlet.Main log```
 
     ```
@@ -146,7 +146,7 @@ Based on the command run, structure of files will be saved.
   random.stuff
   ```
 
-###### Edge Case for Merge:
+##### Edge Case for Merge:
 1. Conflict Files
 Any files modified in different ways in the current and given branches are in conflict. “Modified in different ways” can mean that the contents of both are changed and different from other, or the contents of one are changed and the other file is deleted, or the file was absent at the split point and has different contents in the given and current branches. In this case, replace the contents of the conflicted file with
   
