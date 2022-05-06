@@ -4,6 +4,8 @@
 - [Enigma Machine](#Enigma-Machine)
 - [Ataxx Game](#Ataxx-Game)
 - [Gitlet](#Gitlet)
+
+
 ------------------------------
 ### Blocks Game
 [Blocks Puzzle Game Code](https://github.com/annetta-zheng/Blocks)
@@ -62,9 +64,10 @@ To make things even more interesting, you can place a set of blocks symmetricall
 
 
 ------------------------------
+
 ### Gitlet
 [Gitlet Code](https://github.com/annetta-zheng/Gitlet)
-A version-control [system](https://gitlet.cs61bee.org) is essentially a backup system for related collections of files. The main functionality that Gitlet supports is:
+A [version-control system](https://gitlet.cs61bee.org) is essentially a backup system for related collections of files. The main functionality that Gitlet supports is:
 1. Saving the contents of entire directories of files. In Gitlet, this is called committing, and the saved contents themselves are called commits.
 2. Restoring a version of one or more files or entire commits. In Gitlet, this is called checking out those files or that commit.
 3. Viewing the history of your backups. In Gitlet, you view this history in something called the log.
@@ -72,14 +75,14 @@ A version-control [system](https://gitlet.cs61bee.org) is essentially a backup s
 5. Merging changes made in one branch into another.
 6. Going remote, allowing collaboration with other people over the internet. 
 
-Internal Structure
+###### Internal Structure
 ![image](https://gitlet.cs61bee.org/image/commits-and-blobs.png)
 ![image](https://gitlet.cs61bee.org/image/split_point.png)
 
+###### Commands:
 By starting up the program `java gitlet.Main init`, it will create a repo directory and an initial commit through the command init().
 Based on the command run, structure of files will be saved.
 
-All other commands:
 ```
 1. java gitlet.Main add [file name]
 2. java gitlet.Main commit [message]
@@ -97,5 +100,41 @@ All other commands:
 14. java gitlet.Main merge [branch name]
 ```
 
+###### Sample Outputs:
+```java gitlet.Main log```
+    ```
+    ===
+     commit a0da1ea5a15ab613bf9961fd86f010cf74c7ee48
+     Date: Thu Nov 9 20:00:05 2017 -0800
+     A commit message.
 
+     ===
+     commit 3e8bf1d794ca2e9ef8a4007275acf3751c7170ff
+     Date: Thu Nov 9 17:01:33 2017 -0800
+     Another commit message.
+
+     ===
+     commit e881c9575d180a215d1a636545b8fd9abfb1d2bb
+     Date: Wed Dec 31 16:00:00 1969 -0800
+     initial commit
+     ```
+  ```
+  === Branches ===
+  *master
+  other-branch
+
+  === Staged Files ===
+  wug.txt
+  wug2.txt
+
+  === Removed Files ===
+  goodbye.txt
+
+  === Modifications Not Staged For Commit ===
+  junk.txt (deleted)
+  wug3.txt (modified)
+
+  === Untracked Files ===
+  random.stuff
+  ```
 
