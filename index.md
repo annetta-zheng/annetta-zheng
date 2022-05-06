@@ -102,6 +102,7 @@ Based on the command run, structure of files will be saved.
 
 ###### Sample Outputs:
 ```java gitlet.Main log```
+
     ```
     ===
      commit a0da1ea5a15ab613bf9961fd86f010cf74c7ee48
@@ -118,6 +119,9 @@ Based on the command run, structure of files will be saved.
      Date: Wed Dec 31 16:00:00 1969 -0800
      initial commit
      ```
+     
+```java gitlet.Main status```
+
   ```
   === Branches ===
   *master
