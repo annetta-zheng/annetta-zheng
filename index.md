@@ -67,7 +67,9 @@ To make things even more interesting, you can place a set of blocks symmetricall
 
 ### Gitlet
 [Gitlet Code](https://github.com/annetta-zheng/Gitlet)
-A [version-control system](https://gitlet.cs61bee.org) is essentially a backup system for related collections of files. The main functionality that Gitlet supports is:
+
+A [version-control system](https://gitlet.cs61bee.org) is essentially a backup system for related collections of files. 
+The main functionality that Gitlet supports is:
 1. Saving the contents of entire directories of files. In Gitlet, this is called committing, and the saved contents themselves are called commits.
 2. Restoring a version of one or more files or entire commits. In Gitlet, this is called checking out those files or that commit.
 3. Viewing the history of your backups. In Gitlet, you view this history in something called the log.
@@ -142,3 +144,22 @@ Based on the command run, structure of files will be saved.
   random.stuff
   ```
 
+###### Edge Case for Merge:
+1. Conflict Files
+Any files modified in different ways in the current and given branches are in conflict. “Modified in different ways” can mean that the contents of both are changed and different from other, or the contents of one are changed and the other file is deleted, or the file was absent at the split point and has different contents in the given and current branches. In this case, replace the contents of the conflicted file with
+  
+  ```
+  <<<<<<< HEAD
+  contents of file in current branch
+  =======
+  contents of file in given branch
+  >>>>>>>
+  ```
+
+Once files have been updated according to the above, and the split point was not the current branch or the given branch, merge automatically commits with the log message Merged [given branch name] into [current branch name]. Then, if the merge encountered a conflict, print the message Encountered a merge conflict. on the terminal (not the log). Merge commits differ from other commits: they record as parents both the head of the current branch (called the first parent) and the head of the branch given on the command line to be merged in.
+
+2. Criss-cross Merges
+![image](https://user-images.githubusercontent.com/67286396/167206258-25b6e353-5ca9-4052-8121-190b188be1dd.png)
+
+ - Choose the candidate split point that is closest to the head of the current branch (that is, is reachable by following the fewest parent pointers along some path). 
+ - If multiple candidates are at the same closest distance, choose any one of them as the split point. (We will make sure that this only happens in our test cases when the resulting merge commit is the same with any of the closest choices.)
