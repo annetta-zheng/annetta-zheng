@@ -3,6 +3,7 @@
 - [Blocks Puzzle Game](#Blocks-Game)
 - [Enigma Machine](#Enigma-Machine)
 - [Ataxx Game](#Ataxx-Game)
+- [Gitlet](#Gitlet)
 ------------------------------
 ### Blocks Game
 [Blocks Puzzle Game Code](https://github.com/annetta-zheng/Blocks)
@@ -58,3 +59,43 @@ There are two possible kinds of moves:
 
 To make things even more interesting, you can place a set of blocks symmetrically about the center of the board before playing. These are pre-filled squares that may never be moved to (the blocks themselves never move). Setting blocks is only possible at the start of the game. The illustration below is an example of a starting configuration with 10 blocks. Each block is always reflected across the middle row and the middle column. In other words, there is symmetry both horizontally and vertically for any block that is placed. No block may be placed in the four corner squares, since the initial configuration has pieces there.
 ![image](https://user-images.githubusercontent.com/67286396/162054882-7bc8ccb2-7356-49ce-a2c7-e528a48ab390.png)
+
+
+------------------------------
+### Gitlet
+[Gitlet Code](https://github.com/annetta-zheng/Gitlet)
+A version-control [system](https://gitlet.cs61bee.org) is essentially a backup system for related collections of files. The main functionality that Gitlet supports is:
+1. Saving the contents of entire directories of files. In Gitlet, this is called committing, and the saved contents themselves are called commits.
+2. Restoring a version of one or more files or entire commits. In Gitlet, this is called checking out those files or that commit.
+3. Viewing the history of your backups. In Gitlet, you view this history in something called the log.
+4. Maintaining related sequences of commits, called branches.
+5. Merging changes made in one branch into another.
+6. Going remote, allowing collaboration with other people over the internet. 
+
+Internal Structure
+![image](https://gitlet.cs61bee.org/image/commits-and-blobs.png)
+![image](https://gitlet.cs61bee.org/image/split_point.png)
+
+By starting up the program `java gitlet.Main init`, it will create a repo directory and an initial commit through the command init().
+Based on the command run, structure of files will be saved.
+
+All other commands:
+```
+1. java gitlet.Main add [file name]
+2. java gitlet.Main commit [message]
+3. java gitlet.Main rm [file name]
+4. java gitlet.Main log
+5. java gitlet.Main global-log
+6. java gitlet.Main find [commit message]
+7. java gitlet.Main status
+8. java gitlet.Main checkout -- [file name]
+9. java gitlet.Main checkout [commit id] -- [file name]
+10. java gitlet.Main checkout [branch name]
+11. java gitlet.Main branch [branch name]
+12. java gitlet.Main rm-branch [branch name]
+13. java gitlet.Main reset [commit id]
+14. java gitlet.Main merge [branch name]
+```
+
+
+
