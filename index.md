@@ -7,7 +7,7 @@
 - [Blocks Puzzle Game](#Blocks-Game)
 - [Enigma Machine](#Enigma-Machine)
 - [Ataxx Game](#Ataxx-Game)
-- [Gitlet](#Gitlet)
+- [Gitlet File System](#Gitlet)
 
 ------------------------------
 ### Reviews Sentiment Analyzer
