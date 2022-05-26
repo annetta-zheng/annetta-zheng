@@ -1,4 +1,4 @@
-## Welcome to My Pages for CS/DS Projects
+## Welcome to My Pages for Projects
 
 ### Catalogue
 #### Python
