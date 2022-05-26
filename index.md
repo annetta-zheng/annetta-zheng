@@ -1,9 +1,9 @@
 ## Welcome to My Pages for CS/DS Projects
 
 ### Catalogue
-# Python
+#### Python
 - [Reviews Sentiment Analyzer](#Reviews-Sentiment-Analyzer)
-# Java
+#### Java
 - [Blocks Puzzle Game](#Blocks-Game)
 - [Enigma Machine](#Enigma-Machine)
 - [Ataxx Game](#Ataxx-Game)
