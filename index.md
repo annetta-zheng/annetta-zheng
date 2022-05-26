@@ -14,8 +14,8 @@
 [Sentiment Analyzer Code](https://github.com/annetta-zheng/sentiment_analysis)
 
 * Results:
-Accuracy on the test set using the original dictionary: 80.20%
-Accuracy on the test set using the dictionary with stop words removed: 80.80%
+    * Accuracy on the test set using the original dictionary: 80.20%
+    * Accuracy on the test set using the dictionary with stop words removed: 80.80%
 
 For the perceptron algorithm: best combination of T = 25, with validation accuracy = 79.40%
 ![Figure_4](https://user-images.githubusercontent.com/67286396/170519190-2d1c8fb1-4c49-4dd1-a3b9-6c594bce2842.png)
