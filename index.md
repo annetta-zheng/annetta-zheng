@@ -1,11 +1,31 @@
 ## Welcome to My Pages for CS/DS Projects
 
 ### Catalogue
+# Python
+- [Reviews Sentiment Analyzer](#Reviews-Sentiment-Analyzer)
+# Java
 - [Blocks Puzzle Game](#Blocks-Game)
 - [Enigma Machine](#Enigma-Machine)
 - [Ataxx Game](#Ataxx-Game)
 - [Gitlet](#Gitlet)
 
+------------------------------
+### Reviews Sentiment Analyzer
+[Sentiment Analyzer Code](https://github.com/annetta-zheng/sentiment_analysis)
+
+* Results:
+Accuracy on the test set using the original dictionary: 80.20%
+Accuracy on the test set using the dictionary with stop words removed: 80.80%
+
+For the perceptron algorithm: best combination of T = 25, with validation accuracy = 79.40%
+![Figure_4](https://user-images.githubusercontent.com/67286396/170519190-2d1c8fb1-4c49-4dd1-a3b9-6c594bce2842.png)
+
+For the average perceptron algorithm: best combination of T = 25, with validation accuracy = 80.00%
+![Figure_5](https://user-images.githubusercontent.com/67286396/170519252-46f6b01b-04f5-49e2-ae0c-9fe2f4b33f7f.png)
+
+For the pegasos algorithm: best combination of T = 25 \lambda = 0.01, with validation accuracy = 80.60%
+![Figure_6](https://user-images.githubusercontent.com/67286396/170519444-18c2d7d5-2fbd-47d2-a296-e35c39b1bf3d.png)
+![Figure_7](https://user-images.githubusercontent.com/67286396/170519453-ef692e96-dd75-4c04-a340-a28d0762a820.png)
 
 ------------------------------
 ### Blocks Game
