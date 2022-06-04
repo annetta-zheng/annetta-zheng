@@ -1,5 +1,6 @@
 ## Welcome to My Projects Page
 
+------------------------------
 ### Catalogue
 #### Python
 - [Reviews Sentiment Analyzer](#Reviews-Sentiment-Analyzer)
@@ -11,6 +12,7 @@
 - [Gitlet File System](#Gitlet)
 
 ------------------------------
+
 ### Reviews Sentiment Analyzer
 [Sentiment Analyzer Code](https://github.com/annetta-zheng/sentiment_analysis)
 
@@ -29,6 +31,7 @@ For the pegasos algorithm: best combination of T = 25 \lambda = 0.01, with valid
 ![Figure_7](https://user-images.githubusercontent.com/67286396/170519453-ef692e96-dd75-4c04-a340-a28d0762a820.png)
 
 ------------------------------
+
 ### Local Frog Predictor
 - EY 2022 Better Working World Data Challenge, Rank 74/1222. 
 
@@ -40,6 +43,7 @@ The output will be a species distribution model of one species of frog. Species 
 
 
 ------------------------------
+
 ### Blocks Game
 [Blocks Puzzle Game Code](https://github.com/annetta-zheng/Blocks)
 
@@ -49,6 +53,7 @@ The output will be a species distribution model of one species of frog. Species 
 ![image](https://user-images.githubusercontent.com/67286396/157542546-95e9e541-91c9-4b81-9908-22c476265729.png)  
 
 ------------------------------
+
 ### Enigma Machine
 [Enigma Code](https://github.com/annetta-zheng/enigma)
 
