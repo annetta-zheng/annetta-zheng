@@ -3,6 +3,7 @@
 ### Catalogue
 #### Python
 - [Reviews Sentiment Analyzer](#Reviews-Sentiment-Analyzer)
+- [Local Frog Predictor](#Local-Frog-Predictor)
 #### Java
 - [Blocks Puzzle Game](#Blocks-Game)
 - [Enigma Machine](#Enigma-Machine)
@@ -26,6 +27,17 @@ For the average perceptron algorithm: best combination of T = 25, with validatio
 For the pegasos algorithm: best combination of T = 25 \lambda = 0.01, with validation accuracy = 80.60%
 ![Figure_6](https://user-images.githubusercontent.com/67286396/170519444-18c2d7d5-2fbd-47d2-a296-e35c39b1bf3d.png)
 ![Figure_7](https://user-images.githubusercontent.com/67286396/170519453-ef692e96-dd75-4c04-a340-a28d0762a820.png)
+
+------------------------------
+### Local Frog Predictor
+- EY 2022 Better Working World Data Challenge, Rank 74/1222. 
+
+[Notebook](https://github.com/annetta-zheng/Local-Frog-Predictor/blob/main/challenge.ipynb)
+
+The output will be a species distribution model of one species of frog. Species distribution models are one of the most widely used ecological tools, a cornerstone in many countries worldwide of environmental regulation and conservation.
+
+<img width="1101" alt="image" src="https://user-images.githubusercontent.com/67286396/171982699-807c6615-083e-420f-8fe9-0c63f1f9754b.png">
+
 
 ------------------------------
 ### Blocks Game
