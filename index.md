@@ -14,7 +14,7 @@
 
 ------------------------------
 ### Sentiment Analysis and Music Recommendations Systems	
-[Code](https://github.com/annetta-zheng/music-recommender/blob/main/1)
+[Code](https://github.com/annetta-zheng/music-recommender/blob/main/1)%20Deep%20Learning%20for%20Recommender%20Systems_Annetta%20Zheng_Code.ipynb)
 
 Sentiment Analysis and Music Recommendations Systems Description: a review-based recommendation system with natural language processing (NLP) and Collaborative Filtering on 1.5M review data and 75k music meta data, utilizing Python via keras framework on an AWS EC2 instance.
 
