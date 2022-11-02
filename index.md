@@ -2,7 +2,10 @@
 
 ------------------------------
 ### Catalogue
-#### Python
+#### Python, Software Engineering 
+- [flask blog post web app](#flask-blog-post-web-app)
+- 
+#### Python, Machine Learning
 - [Sentiment Analysis and Music Recommendations Systems](#Sentiment-Analysis-and-Music-Recommendations-Systems)
 - [Reviews Sentiment Analyzer](#Reviews-Sentiment-Analyzer)
 - [Local Frog Predictor](#Local-Frog-Predictor)
@@ -13,6 +16,12 @@
 - [Gitlet File System](#Gitlet)
 
 ------------------------------
+### flask blog post web app
+[Code](https://github.com/annetta-zheng/flask-blog-post-web-app)
+A Flask landing page with SQLAlchemy displaying blog posts and allowing users to login and register.
+
+------------------------------
+
 ### Sentiment Analysis and Music Recommendations Systems	
 [Code](https://github.com/annetta-zheng/music-recommender)
 
