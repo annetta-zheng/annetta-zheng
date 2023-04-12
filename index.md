@@ -1,6 +1,7 @@
 ## Welcome to My Projects Page
 
 ______________________________
+------------------------------
 ### Catalogue
 
 #### Python, Machine Learning
@@ -18,6 +19,7 @@ ______________________________
 - [Enigma Machine](#Enigma-Machine)
 - [Ataxx Game](#Ataxx-Game)
 
+______________________________
 ------------------------------
 
 ### flask blog post web app
