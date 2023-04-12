@@ -1,5 +1,5 @@
 ## Welcome to My Projects Page
-
+------------------------------
 ------------------------------
 ### Catalogue
 
@@ -19,18 +19,20 @@
 - [Ataxx Game](#Ataxx-Game)
 
 ------------------------------
+------------------------------
 ### flask blog post web app
 [Code](https://github.com/annetta-zheng/flask-blog-post-web-app)
 A Flask landing page with SQLAlchemy displaying blog posts and allowing users to login and register.
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/67286396/199391099-ee012a6b-7faa-4627-896c-4beaaa1e6735.png">
 
 
-
-
-
+------------------------------
 ### RESTful messenger web app
 [Code](https://github.com/annetta-zheng/web-messenger-app)
 RESTful API Project with Redis Nameko.
+
+
+
 
 ------------------------------
 
@@ -58,12 +60,7 @@ Sentiment Analysis and Music Recommendations Systems Description: a review-based
 
 
 
-
-
-
-
-
-
+------------------------------
 ### Reviews Sentiment Analyzer
 [Sentiment Analyzer Code](https://github.com/annetta-zheng/sentiment_analysis)
 
@@ -133,7 +130,6 @@ For OOP, Data Structures in Java.
 ```  
 
 ------------------------------
-
 ### Ataxx Game
 [Ataxx Code](https://github.com/annetta-zheng/Ataxx)
 
@@ -153,7 +149,6 @@ To make things even more interesting, you can place a set of blocks symmetricall
 
 
 ------------------------------
-
 ### Gitlet
 [Gitlet Code](https://github.com/annetta-zheng/Gitlet)
 
