@@ -2,13 +2,15 @@
 
 ------------------------------
 ### Catalogue
-#### Python, Software Engineering 
-- [flask blog post web app](#flask-blog-post-web-app)
-- TBC
+
 #### Python, Machine Learning
 - [Sentiment Analysis and Music Recommendations Systems](#Sentiment-Analysis-and-Music-Recommendations-Systems)
 - [Reviews Sentiment Analyzer](#Reviews-Sentiment-Analyzer)
 - [Local Frog Predictor](#Local-Frog-Predictor)
+
+#### Python, Software Engineering 
+- [flask blog post web app](#flask-blog-post-web-app)
+- TBC
 #### Java
 - [Blocks Puzzle Game](#Blocks-Game)
 - [Enigma Machine](#Enigma-Machine)
