@@ -4,16 +4,17 @@ ______________________________
 ------------------------------
 ### Catalogue
 
-#### Python, Machine Learning
+#### Deep Learning/Machine Learning
 - [Sentiment Analysis and Music Recommendations Systems](#Sentiment-Analysis-and-Music-Recommendations-Systems)
 - [Reviews Sentiment Analyzer](#Reviews-Sentiment-Analyzer)
 - [Local Frog Predictor](#Local-Frog-Predictor)
 
-#### Python, Software Engineering 
+#### Software Engineering 
+###### Python
 - [Flask Blog Post Web App](#flask-blog-post-web-app)
 - [RESTful Messenger Web App](#RESTful-messenger-web-app)
 - TBC
-#### Java
+###### Java
 - [Gitlet File System](#Gitlet)
 - [Blocks Puzzle Game](#Blocks-Game)
 - [Enigma Machine](#Enigma-Machine)
