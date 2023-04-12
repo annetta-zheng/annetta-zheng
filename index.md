@@ -9,13 +9,13 @@
 - [Local Frog Predictor](#Local-Frog-Predictor)
 
 #### Python, Software Engineering 
-- [flask blog post web app](#flask-blog-post-web-app)
+- [Flask Blog Post Web App](#flask-blog-post-web-app)
 - TBC
 #### Java
+- [Gitlet File System](#Gitlet)
 - [Blocks Puzzle Game](#Blocks-Game)
 - [Enigma Machine](#Enigma-Machine)
 - [Ataxx Game](#Ataxx-Game)
-- [Gitlet File System](#Gitlet)
 
 ------------------------------
 ### flask blog post web app
