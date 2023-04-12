@@ -1,7 +1,5 @@
 ## Welcome to My Projects Page
-------------------------------
-------------------------------
-++++++++++++++++++++++++++++++
+
 ______________________________
 ### Catalogue
 
@@ -21,7 +19,7 @@ ______________________________
 - [Ataxx Game](#Ataxx-Game)
 
 ------------------------------
-------------------------------
+
 ### flask blog post web app
 [Code](https://github.com/annetta-zheng/flask-blog-post-web-app)
 A Flask landing page with SQLAlchemy displaying blog posts and allowing users to login and register.
