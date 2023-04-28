@@ -1,7 +1,7 @@
 ## Welcome to My Page
 
 ### Contact
-Please share any feedback, or if you want to connect: [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/junwen-zheng-789569195/ "My LinkedIn") [![Email](<img width="250" alt="image" src="https://user-images.githubusercontent.com/67286396/235269612-5f168df1-48a2-4f1a-8c84-5b24d4ede83a.png">)](mailto:annetta@berkeley.edu)
+Please share any feedback, or if you want to connect: [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/junwen-zheng-789569195/ "My LinkedIn") [![Email](<img width="500" alt="image" src="https://user-images.githubusercontent.com/67286396/235269612-5f168df1-48a2-4f1a-8c84-5b24d4ede83a.png">)](mailto:annetta@berkeley.edu)
 
 ______________________________
 
