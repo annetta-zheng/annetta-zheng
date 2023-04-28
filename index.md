@@ -1,7 +1,7 @@
 ## Welcome to My Page
 
 ### Contact
-[![LinkedIn][https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555]][https://www.linkedin.com/in/junwen-zheng-789569195/]
+[![LinkedIn][https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555]](https://www.linkedin.com/in/junwen-zheng-789569195/ "My LinkedIn")
 Email: annetta@berkeley.edu
 
 ______________________________
@@ -37,11 +37,11 @@ ______________________________
 ### Certifications
 
 ##### Amazon
-[AWS - Introduction to Amazon Quicksight.pdf](https://github.com/annetta-zheng/annetta/files/11357701/137_3_3110879_1678134335_AWS.Course.Completion.Certificate.pdf)
-[AWS - Visualizing with Quicksight.pdf](https://github.com/annetta-zheng/annetta/files/11357703/41_3_3110879_1678142217_AWS.Course.Completion.Certificate.pdf)
+- [x] [AWS - Introduction to Amazon Quicksight.pdf](https://github.com/annetta-zheng/annetta/files/11357701/137_3_3110879_1678134335_AWS.Course.Completion.Certificate.pdf)
+- [x][AWS - Visualizing with Quicksight.pdf](https://github.com/annetta-zheng/annetta/files/11357703/41_3_3110879_1678142217_AWS.Course.Completion.Certificate.pdf)
 
 ##### Meta
-[Meta - Introduction to Data Engineer.pdf](https://github.com/annetta-zheng/annetta/files/11357723/Coursera.6APZDH8JTYRQ.pdf)
+- [x] [Meta - Introduction to Data Engineer.pdf](https://github.com/annetta-zheng/annetta/files/11357723/Coursera.6APZDH8JTYRQ.pdf)
 
 
 ------------------------------
@@ -62,6 +62,7 @@ This is a for a full stack Blog Application using React components on the front 
 <img width="582" alt="image" src="https://user-images.githubusercontent.com/67286396/234439050-2da14148-ae4c-4d76-a797-e7a0ddfe6473.png">
 
 <p align="right">^<a href="#Contact">Back to Top</a></p>
+
 ------------------------------
 
 ### flask blog post web app
@@ -70,6 +71,7 @@ A Flask landing page with SQLAlchemy displaying blog posts and allowing users to
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/67286396/199391099-ee012a6b-7faa-4627-896c-4beaaa1e6735.png">
 
 <p align="right">^<a href="#Contact">Back to Top</a></p>
+
 ------------------------------
 ### RESTful messenger web app
 [Code](https://github.com/annetta-zheng/web-messenger-app)
@@ -77,6 +79,7 @@ RESTful API Project with Redis Nameko.
 
 
 <p align="right">^<a href="#Contact">Back to Top</a></p>
+
 ------------------------------
 
 ### Sentiment Analysis and Music Recommendations Systems	
@@ -123,6 +126,7 @@ For the pegasos algorithm: best combination of T = 25 \lambda = 0.01, with valid
 
 
 <p align="right">^<a href="#Contact">Back to Top</a></p>
+
 ------------------------------
 
 ### Local Frog Predictor
@@ -136,6 +140,7 @@ The output will be a species distribution model of one species of frog. Species 
 
 
 <p align="right">^<a href="#Contact">Back to Top</a></p>
+
 ------------------------------
 
 ### Blocks Game
@@ -148,6 +153,7 @@ The output will be a species distribution model of one species of frog. Species 
 
 
 <p align="right">^<a href="#Contact">Back to Top</a></p>
+
 ------------------------------
 
 ### Enigma Machine
@@ -179,7 +185,9 @@ For OOP, Data Structures in Java.
 
 
 <p align="right">^<a href="#Contact">Back to Top</a></p>
+
 ------------------------------
+
 ### Ataxx Game
 [Ataxx Code](https://github.com/annetta-zheng/Ataxx)
 
@@ -199,7 +207,9 @@ To make things even more interesting, you can place a set of blocks symmetricall
 
 
 <p align="right">^<a href="#Contact">Back to Top</a></p>
+
 ------------------------------
+
 ### Gitlet
 [Gitlet Code](https://github.com/annetta-zheng/Gitlet)
 
@@ -301,6 +311,7 @@ Once files have been updated according to the above, and the split point was not
  - If multiple candidates are at the same closest distance, choose any one of them as the split point. (We will make sure that this only happens in our test cases when the resulting merge commit is the same with any of the closest choices.)
 
 <p align="right">^<a href="#Contact">Back to Top</a></p>
+
 ______________________________
 ------------------------------
 
