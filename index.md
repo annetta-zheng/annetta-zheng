@@ -3,8 +3,7 @@
 ### Contact
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/junwen-zheng-789569195/ "My LinkedIn")
 
-
-Email: (mailto:annetta@berkeley.edu)
+[![Email](https://user-images.githubusercontent.com/67286396/235269612-5f168df1-48a2-4f1a-8c84-5b24d4ede83a.png)](mailto:annetta@berkeley.edu)
 
 ______________________________
 
@@ -54,12 +53,14 @@ ______________________________
 [Code](https://github.com/annetta-zheng/Full-Stack-Blog-App-with-React-Node.js-MySQL)
 
 This is a for a full stack Blog Application using React components on the front end, with a CRUD Application using NodeJS + Express + MySQL on the back end.
-##### Features
-* One of the key features of this application is the ability for users to register and create their own blog posts. Users can write, update, and delete their blog posts powered by a MySQL database. 
-* The application also includes features such as authentication and authorization to ensure that only authorized users can create, update, and delete blog posts. 
-* Another important feature is customizing, users can view the posts filtered by categories and get posts recommendation within the same category. 
-* The React components used in the front-end include a variety of UI elements and the components are designed to be reusable, allowing developers to build complex interfaces using a combination of simple components and allowing user to post and edit a blog with rich text editors and pictures. 
-* The web app is also designed to be responsive, adapting to different screen sizes and orientations.
+<details>
+      <summary>Features</summary>
+       * One of the key features of this application is the ability for users to register and create their own blog posts. Users can write, update, and delete their blog posts powered by a MySQL database. 
+      * The application also includes features such as authentication and authorization to ensure that only authorized users can create, update, and delete blog posts. 
+      * Another important feature is customizing, users can view the posts filtered by categories and get posts recommendation within the same category. 
+      * The React components used in the front-end include a variety of UI elements and the components are designed to be reusable, allowing developers to build complex interfaces using a combination of simple components and allowing user to post and edit a blog with rich text editors and pictures. 
+      * The web app is also designed to be responsive, adapting to different screen sizes and orientations.
+</details>      
 
 <img width="582" alt="image" src="https://user-images.githubusercontent.com/67286396/234439050-2da14148-ae4c-4d76-a797-e7a0ddfe6473.png">
 
