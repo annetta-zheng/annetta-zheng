@@ -1,8 +1,10 @@
 ## Welcome to My Page
 
 ### Contact
-[![LinkedIn][https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555]](https://www.linkedin.com/in/junwen-zheng-789569195/ "My LinkedIn")
-Email: annetta@berkeley.edu
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/junwen-zheng-789569195/ "My LinkedIn")
+
+
+Email: (mailto:annetta@berkeley.edu)
 
 ______________________________
 
@@ -38,7 +40,7 @@ ______________________________
 
 ##### Amazon
 - [x] [AWS - Introduction to Amazon Quicksight.pdf](https://github.com/annetta-zheng/annetta/files/11357701/137_3_3110879_1678134335_AWS.Course.Completion.Certificate.pdf)
-- [x][AWS - Visualizing with Quicksight.pdf](https://github.com/annetta-zheng/annetta/files/11357703/41_3_3110879_1678142217_AWS.Course.Completion.Certificate.pdf)
+- [x] [AWS - Visualizing with Quicksight.pdf](https://github.com/annetta-zheng/annetta/files/11357703/41_3_3110879_1678142217_AWS.Course.Completion.Certificate.pdf)
 
 ##### Meta
 - [x] [Meta - Introduction to Data Engineer.pdf](https://github.com/annetta-zheng/annetta/files/11357723/Coursera.6APZDH8JTYRQ.pdf)
