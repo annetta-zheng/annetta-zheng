@@ -1,8 +1,16 @@
-## Welcome to My Projects Page
+## Welcome to My Page
+
+### Contact
+[![LinkedIn][https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555]][https://www.linkedin.com/in/junwen-zheng-789569195/]
+Email: annetta@berkeley.edu
 
 ______________________________
-------------------------------
+
 ### Catalogue
+
+#### Certifications
+- [Amazon QuickSight](#Amazon)
+- [Meta Data Engineer](#Meta)
 
 #### Deep Learning/Machine Learning
 - [Sentiment Analysis and Music Recommendations Systems](#Sentiment-Analysis-and-Music-Recommendations-Systems)
@@ -13,14 +21,47 @@ ______________________________
 ###### Python
 - [Flask Blog Post Web App](#flask-blog-post-web-app)
 - [RESTful Messenger Web App](#RESTful-messenger-web-app)
-- TBC
+
 ###### Java
 - [Gitlet File System](#Gitlet)
 - [Blocks Puzzle Game](#Blocks-Game)
 - [Enigma Machine](#Enigma-Machine)
 - [Ataxx Game](#Ataxx-Game)
 
+###### JavaScript
+- [Full Stack Blog App with React, Node.js, Express, MySQL](#Blog-App)
+
+
+
 ______________________________
+### Certifications
+
+##### Amazon
+[AWS - Introduction to Amazon Quicksight.pdf](https://github.com/annetta-zheng/annetta/files/11357701/137_3_3110879_1678134335_AWS.Course.Completion.Certificate.pdf)
+[AWS - Visualizing with Quicksight.pdf](https://github.com/annetta-zheng/annetta/files/11357703/41_3_3110879_1678142217_AWS.Course.Completion.Certificate.pdf)
+
+##### Meta
+[Meta - Introduction to Data Engineer.pdf](https://github.com/annetta-zheng/annetta/files/11357723/Coursera.6APZDH8JTYRQ.pdf)
+
+
+------------------------------
+
+______________________________
+
+### Blog App
+[Code](https://github.com/annetta-zheng/Full-Stack-Blog-App-with-React-Node.js-MySQL)
+
+This is a for a full stack Blog Application using React components on the front end, with a CRUD Application using NodeJS + Express + MySQL on the back end.
+##### Features
+* One of the key features of this application is the ability for users to register and create their own blog posts. Users can write, update, and delete their blog posts powered by a MySQL database. 
+* The application also includes features such as authentication and authorization to ensure that only authorized users can create, update, and delete blog posts. 
+* Another important feature is customizing, users can view the posts filtered by categories and get posts recommendation within the same category. 
+* The React components used in the front-end include a variety of UI elements and the components are designed to be reusable, allowing developers to build complex interfaces using a combination of simple components and allowing user to post and edit a blog with rich text editors and pictures. 
+* The web app is also designed to be responsive, adapting to different screen sizes and orientations.
+
+<img width="582" alt="image" src="https://user-images.githubusercontent.com/67286396/234439050-2da14148-ae4c-4d76-a797-e7a0ddfe6473.png">
+
+<p align="right">^<a href="#Contact">Back to Top</a></p>
 ------------------------------
 
 ### flask blog post web app
@@ -28,15 +69,14 @@ ______________________________
 A Flask landing page with SQLAlchemy displaying blog posts and allowing users to login and register.
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/67286396/199391099-ee012a6b-7faa-4627-896c-4beaaa1e6735.png">
 
-
+<p align="right">^<a href="#Contact">Back to Top</a></p>
 ------------------------------
 ### RESTful messenger web app
 [Code](https://github.com/annetta-zheng/web-messenger-app)
 RESTful API Project with Redis Nameko.
 
 
-
-
+<p align="right">^<a href="#Contact">Back to Top</a></p>
 ------------------------------
 
 ### Sentiment Analysis and Music Recommendations Systems	
@@ -62,7 +102,7 @@ Sentiment Analysis and Music Recommendations Systems Description: a review-based
 
 
 
-
+<p align="right">^<a href="#Contact">Back to Top</a></p>
 ------------------------------
 ### Reviews Sentiment Analyzer
 [Sentiment Analyzer Code](https://github.com/annetta-zheng/sentiment_analysis)
@@ -81,6 +121,8 @@ For the pegasos algorithm: best combination of T = 25 \lambda = 0.01, with valid
 ![Figure_6](https://user-images.githubusercontent.com/67286396/170519444-18c2d7d5-2fbd-47d2-a296-e35c39b1bf3d.png)
 ![Figure_7](https://user-images.githubusercontent.com/67286396/170519453-ef692e96-dd75-4c04-a340-a28d0762a820.png)
 
+
+<p align="right">^<a href="#Contact">Back to Top</a></p>
 ------------------------------
 
 ### Local Frog Predictor
@@ -93,6 +135,7 @@ The output will be a species distribution model of one species of frog. Species 
 <img width="1101" alt="image" src="https://user-images.githubusercontent.com/67286396/171982699-807c6615-083e-420f-8fe9-0c63f1f9754b.png">
 
 
+<p align="right">^<a href="#Contact">Back to Top</a></p>
 ------------------------------
 
 ### Blocks Game
@@ -103,6 +146,8 @@ The output will be a species distribution model of one species of frog. Species 
 ![image](https://inst.eecs.berkeley.edu/~cs61b/sp22/materials/proj/proj0/img/figure1.png)
 ![image](https://user-images.githubusercontent.com/67286396/157542546-95e9e541-91c9-4b81-9908-22c476265729.png)  
 
+
+<p align="right">^<a href="#Contact">Back to Top</a></p>
 ------------------------------
 
 ### Enigma Machine
@@ -132,6 +177,8 @@ For OOP, Data Structures in Java.
              (gt) (hs) (ir) (jq) (kp) (lo) (mn)
 ```  
 
+
+<p align="right">^<a href="#Contact">Back to Top</a></p>
 ------------------------------
 ### Ataxx Game
 [Ataxx Code](https://github.com/annetta-zheng/Ataxx)
@@ -151,6 +198,7 @@ To make things even more interesting, you can place a set of blocks symmetricall
 ![image](https://user-images.githubusercontent.com/67286396/162054882-7bc8ccb2-7356-49ce-a2c7-e528a48ab390.png)
 
 
+<p align="right">^<a href="#Contact">Back to Top</a></p>
 ------------------------------
 ### Gitlet
 [Gitlet Code](https://github.com/annetta-zheng/Gitlet)
@@ -251,3 +299,10 @@ Once files have been updated according to the above, and the split point was not
 
  - Choose the candidate split point that is closest to the head of the current branch (that is, is reachable by following the fewest parent pointers along some path). 
  - If multiple candidates are at the same closest distance, choose any one of them as the split point. (We will make sure that this only happens in our test cases when the resulting merge commit is the same with any of the closest choices.)
+
+<p align="right">^<a href="#Contact">Back to Top</a></p>
+______________________________
+------------------------------
+
+
+
