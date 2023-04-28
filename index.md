@@ -1,7 +1,7 @@
 ## Welcome to My Page
 
 ### Contact
-Please share any feedback, or if you want to connect: [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/junwen-zheng-789569195/ "My LinkedIn") [![Email](<img width="1000" alt="image" src="https://user-images.githubusercontent.com/67286396/235269612-5f168df1-48a2-4f1a-8c84-5b24d4ede83a.png">)](mailto:annetta@berkeley.edu)
+Please share any feedback, or if you want to connect: [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/junwen-zheng-789569195/ "My LinkedIn") | [![Email](<img width="2000" alt="image" src="https://user-images.githubusercontent.com/67286396/235269612-5f168df1-48a2-4f1a-8c84-5b24d4ede83a.png">)](mailto:annetta@berkeley.edu)
 
 ______________________________
 
@@ -45,7 +45,8 @@ ______________________________
 
 ______________________________
 
-### [Blog App](https://github.com/annetta-zheng/Full-Stack-Blog-App-with-React-Node.js-MySQL)(Click for repo)
+### [Blog App]
+[(Click for repo)](https://github.com/annetta-zheng/Full-Stack-Blog-App-with-React-Node.js-MySQL)
 
 This is a for a full stack Blog Application using React components on the front end, with a CRUD Application using NodeJS + Express + MySQL on the back end.
 
@@ -87,6 +88,9 @@ RESTful API Project with Redis Nameko.
 
 Sentiment Analysis and Music Recommendations Systems Description: a review-based recommendation system with natural language processing (NLP) and Collaborative Filtering on 1.5M review data and 75k music meta data, utilizing Python via keras framework on an AWS EC2 instance.
 
+<details>
+      <summary><h4>Key Features</h4> Click to expand</summary>
+      
 1. Trained a convolutional neural network (CNN) for Sentiment Analysis on the review texts classifying the reviews as positive and negative, summarized keyword using NLTK, visualized word embeddings, and gained 91.4% test accuracy.
 
       <img width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599514-0c6ab305-e115-403f-bf68-8135e06a339b.png">
@@ -103,7 +107,7 @@ Sentiment Analysis and Music Recommendations Systems Description: a review-based
 3. Trained a Deep Neural Network with regularization for the recommender with MAE below 0.4 and MSE below 40.
       <img width="808" alt="image" src="https://user-images.githubusercontent.com/67286396/204600119-0ae46ce1-43fb-4221-9ae4-3b4507817285.png">
 
-
+</details>  
 
 <p align="right">^<a href="#Contact">Back to Top</a></p>
 ------------------------------
@@ -114,6 +118,9 @@ Sentiment Analysis and Music Recommendations Systems Description: a review-based
     * Accuracy on the test set using the original dictionary: 80.20%
     * Accuracy on the test set using the dictionary with stop words removed: 80.80%
 
+<details>  
+      <summary><h4>Key Features</h4> Click to expand</summary>
+
 For the perceptron algorithm: best combination of T = 25, with validation accuracy = 79.40%
 ![Figure_4](https://user-images.githubusercontent.com/67286396/170519190-2d1c8fb1-4c49-4dd1-a3b9-6c594bce2842.png)
 
@@ -123,7 +130,7 @@ For the average perceptron algorithm: best combination of T = 25, with validatio
 For the pegasos algorithm: best combination of T = 25 \lambda = 0.01, with validation accuracy = 80.60%
 ![Figure_6](https://user-images.githubusercontent.com/67286396/170519444-18c2d7d5-2fbd-47d2-a296-e35c39b1bf3d.png)
 ![Figure_7](https://user-images.githubusercontent.com/67286396/170519453-ef692e96-dd75-4c04-a340-a28d0762a820.png)
-
+</details>  
 
 <p align="right">^<a href="#Contact">Back to Top</a></p>
 
@@ -231,6 +238,9 @@ The main functionality that Gitlet supports is:
 By starting up the program `java gitlet.Main init`, it will create a repo directory and an initial commit through the command init().
 Based on the command run, structure of files will be saved.
 
+<details>  
+      <summary><h4>All Commands</h4> Click to expand</summary>
+
 ```
 1. java gitlet.Main add [file name]
 2. java gitlet.Main commit [message]
@@ -247,8 +257,12 @@ Based on the command run, structure of files will be saved.
 13. java gitlet.Main reset [commit id]
 14. java gitlet.Main merge [branch name]
 ```
+      
+</details>  
 
-##### Sample Outputs:
+<details>  
+      <summary><h4>Sample Outputs</h4> Click to expand</summary>
+
 ```java gitlet.Main log```
 
     ```
@@ -290,7 +304,11 @@ Based on the command run, structure of files will be saved.
   random.stuff
   ```
 
-##### Edge Case for Merge:
+</details>  
+
+<details>  
+      <summary><h4>Edge Cases</h4> Click to expand</summary>
+
 1. Conflict Files
 Any files modified in different ways in the current and given branches are in conflict. “Modified in different ways” can mean that the contents of both are changed and different from other, or the contents of one are changed and the other file is deleted, or the file was absent at the split point and has different contents in the given and current branches. In this case, replace the contents of the conflicted file with
   
@@ -310,6 +328,9 @@ Once files have been updated according to the above, and the split point was not
  - Choose the candidate split point that is closest to the head of the current branch (that is, is reachable by following the fewest parent pointers along some path). 
  - If multiple candidates are at the same closest distance, choose any one of them as the split point. (We will make sure that this only happens in our test cases when the resulting merge commit is the same with any of the closest choices.)
 
+      
+</details>  
+      
 <p align="right">^<a href="#Contact">Back to Top</a></p>
 
 ______________________________
