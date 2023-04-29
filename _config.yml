@@ -14,7 +14,13 @@ email: annetta@berkeley.edu
 linkedin: https://www.linkedin.com/in/junwen-zheng-789569195/
 github_link: https://annetta-zheng.github.io
 
+
 google_analytics: G-1WEYSPQBEB
+# Search Engine Optimization (SEO)
+# The following information is used to improve the website traffic from search engines, e.g., Google.
+keywords: portfolio page
+description: github personal blog repo portfolio page
+
 
 # Gitalk
 gitalk:
@@ -24,3 +30,7 @@ gitalk:
   owner: annetta-zheng
   
   
+# The following files will be removed from the generated website.
+exclude:
+  - README.md
+  - LICENSE
