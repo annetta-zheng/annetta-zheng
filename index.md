@@ -1,24 +1,24 @@
-## Welcome to My Page
+# Welcome to My Page
 Last Updated on Apr 28, 2023. Please share any feedback, or if you want to connect :smile: [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/junwen-zheng-789569195/ "My LinkedIn") [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:annetta@berkeley.edu "Write an Email")
 ______________________________
-### Catalogue
+## Catalogue
 
-#### Certifications
+### Certifications
 - [Amazon QuickSight](#Amazon)
 - [Meta Data Engineer](#Meta)
 
-#### Deep Learning/Machine Learning
+### Deep Learning/Machine Learning
 - [Sentiment Analysis and Music Recommendations Systems](#Sentiment-Analysis-and-Music-Recommendations-Systems)
 - [Reviews Sentiment Analyzer](#Reviews-Sentiment-Analyzer)
 - [Local Frog Predictor](#Local-Frog-Predictor)
 
-#### Software Engineering 
-###### JavaScript
+### Software Engineering 
+##### JavaScript
 - [**Full Stack** Blog App with *React, Node.js, Express, MySQL*](#Blog-App)
-###### Python
+##### Python
 - [Flask Blog Post Web App](#flask-blog-post-web-app)
 - [RESTful Messenger Web App](#RESTful-messenger-web-app)
-###### Java
+##### Java
 - [**Back End** Gitlet Version Control System](#Gitlet)
 - [Blocks Puzzle Game](#Blocks-Game)
 - [Enigma Cipher Machine](#Enigma-Machine)
@@ -26,10 +26,10 @@ ______________________________
 
 ______________________________
 ### Certifications
-##### Amazon
+#### Amazon
 - [x] [AWS - Introduction to Amazon Quicksight.pdf](https://github.com/annetta-zheng/annetta/files/11357701/137_3_3110879_1678134335_AWS.Course.Completion.Certificate.pdf)
 - [x] [AWS - Visualizing with Quicksight.pdf](https://github.com/annetta-zheng/annetta/files/11357703/41_3_3110879_1678142217_AWS.Course.Completion.Certificate.pdf)
-##### Meta
+#### Meta
 - [x] [Meta - Introduction to Data Engineer.pdf](https://github.com/annetta-zheng/annetta/files/11357723/Coursera.6APZDH8JTYRQ.pdf)
 
 ______________________________
