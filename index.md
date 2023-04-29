@@ -69,8 +69,7 @@ ______________________________
 [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/music-recommender)
 
 Sentiment Analysis and Music Recommendations Systems Description: a review-based recommendation system with natural language processing (NLP) and Collaborative Filtering on 1.5M review data and 75k music meta data, utilizing Python via keras framework on an AWS EC2 instance.
-<details>
-      <summary><h4>Key Features</h4> Click to expand</summary>
+#### Key Features
       
 1. Trained a convolutional neural network (CNN) for Sentiment Analysis on the review texts classifying the reviews as positive and negative, summarized keyword using NLTK, visualized word embeddings, and gained 91.4% test accuracy.
 
@@ -88,9 +87,8 @@ Sentiment Analysis and Music Recommendations Systems Description: a review-based
 3. Trained a Deep Neural Network with regularization for the recommender with MAE below 0.4 and MSE below 40.
       <img width="808" alt="image" src="https://user-images.githubusercontent.com/67286396/204600119-0ae46ce1-43fb-4221-9ae4-3b4507817285.png">
 
-</details>  
-
 <p align="right">^<a href="#Catalogue">Back to Top</a></p>
+
 ------------------------------
 ### Reviews Sentiment Analyzer
 [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/sentiment_analysis) A basic sentiment analyzer with deep learning.
@@ -131,6 +129,7 @@ A species distribution model of one species of frog. Species distribution models
 
 ### Blocks Game
 [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Blocks)
+
 [Demo Game] (https://www.cbc.ca/kidscbc2/content/games/blocks-puzzle/index.html)
 
 ![image](https://inst.eecs.berkeley.edu/~cs61b/sp22/materials/proj/proj0/img/figure1.png)
@@ -204,75 +203,74 @@ The main functionality that Gitlet supports is:
 ![image](https://gitlet.cs61bee.org/image/split_point.png)
 </blockquote></details>  
 
-<details>  
-      <summary><h4>Commands and Sample Output</h4> Click to expand</summary><blockquote>
+<details><summary><h4>Commands and Sample Output</h4> Click to expand</summary><blockquote>
     By starting up the program `java gitlet.Main init`, it will create a repo directory and an initial commit through the command init(). Based on the command run, structure of files will be saved.
     <details><summary><h4>All Commands<h5>Click to expand</summary><blockquote>
+
+      ``` 
+      1. java gitlet.Main add [file name]
+      2. java gitlet.Main commit [message]
+      3. java gitlet.Main rm [file name]
+      4. java gitlet.Main log
+      5. java gitlet.Main global-log
+      6. java gitlet.Main find [commit message]
+      7. java gitlet.Main status
+      8. java gitlet.Main checkout -- [file name]
+      9. java gitlet.Main checkout [commit id] -- [file name]
+      10. java gitlet.Main checkout [branch name]
+      11. java gitlet.Main branch [branch name]
+      12. java gitlet.Main rm-branch [branch name]
+      13. java gitlet.Main reset [commit id]
+      14. java gitlet.Main merge [branch name]
+      ``` 
+    
+          </blockquote></details>
           
-```
-1. java gitlet.Main add [file name]
-2. java gitlet.Main commit [message]
-3. java gitlet.Main rm [file name]
-4. java gitlet.Main log
-5. java gitlet.Main global-log
-6. java gitlet.Main find [commit message]
-7. java gitlet.Main status
-8. java gitlet.Main checkout -- [file name]
-9. java gitlet.Main checkout [commit id] -- [file name]
-10. java gitlet.Main checkout [branch name]
-11. java gitlet.Main branch [branch name]
-12. java gitlet.Main rm-branch [branch name]
-13. java gitlet.Main reset [commit id]
-14. java gitlet.Main merge [branch name]
-```    
-          </blockquote></details>
-          </blockquote></details>
+    <details><summary><h5>Sample Outputs</h5>Click to expand</summary><blockquote>
 
-        <details><summary><h5>Sample Outputs</h5>Click to expand</summary><blockquote>
+      ```java gitlet.Main log```
 
-```java gitlet.Main log```
+          ```
+          ===
+           commit a0da1ea5a15ab613bf9961fd86f010cf74c7ee48
+           Date: Thu Nov 9 20:00:05 2017 -0800
+           A commit message.
 
-    ```
-    ===
-     commit a0da1ea5a15ab613bf9961fd86f010cf74c7ee48
-     Date: Thu Nov 9 20:00:05 2017 -0800
-     A commit message.
+           ===
+           commit 3e8bf1d794ca2e9ef8a4007275acf3751c7170ff
+           Date: Thu Nov 9 17:01:33 2017 -0800
+           Another commit message.
 
-     ===
-     commit 3e8bf1d794ca2e9ef8a4007275acf3751c7170ff
-     Date: Thu Nov 9 17:01:33 2017 -0800
-     Another commit message.
-
-     ===
-     commit e881c9575d180a215d1a636545b8fd9abfb1d2bb
-     Date: Wed Dec 31 16:00:00 1969 -0800
-     initial commit
-     ```
+           ===
+           commit e881c9575d180a215d1a636545b8fd9abfb1d2bb
+           Date: Wed Dec 31 16:00:00 1969 -0800
+           initial commit
+           ```
      
-```java gitlet.Main status```
+      ```java gitlet.Main status```
 
-  ```
-  === Branches ===
-  *master
-  other-branch
+        ```
+        === Branches ===
+        *master
+        other-branch
 
-  === Staged Files ===
-  wug.txt
-  wug2.txt
+        === Staged Files ===
+        wug.txt
+        wug2.txt
 
-  === Removed Files ===
-  goodbye.txt
+        === Removed Files ===
+        goodbye.txt
 
-  === Modifications Not Staged For Commit ===
-  junk.txt (deleted)
-  wug3.txt (modified)
+        === Modifications Not Staged For Commit ===
+        junk.txt (deleted)
+        wug3.txt (modified)
 
-  === Untracked Files ===
-  random.stuff
-  ```
+        === Untracked Files ===
+        random.stuff
+        ```
 
-            <blockquote></details>  
-            <blockquote></details> 
+          <blockquote></details>  
+<blockquote></details> 
 
 <details>  
       <summary><h4>Edge Cases</h4> Click to expand</summary>
