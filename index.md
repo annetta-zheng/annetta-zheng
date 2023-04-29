@@ -1,7 +1,6 @@
 ## Welcome to My Page
 
-Please share any feedback, or if you want to connect: [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/junwen-zheng-789569195/ "My LinkedIn") [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:annetta@berkeley.edu "Write an Email")
-
+Please share any feedback, or if you want to connect :smile: [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/junwen-zheng-789569195/ "My LinkedIn") [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:annetta@berkeley.edu "Write an Email")
 ______________________________
 ### Catalogue
 
@@ -18,64 +17,51 @@ ______________________________
 ###### Python
 - [Flask Blog Post Web App](#flask-blog-post-web-app)
 - [RESTful Messenger Web App](#RESTful-messenger-web-app)
-
 ###### Java
 - [Gitlet File System](#Gitlet)
 - [Blocks Puzzle Game](#Blocks-Game)
 - [Enigma Machine](#Enigma-Machine)
 - [Ataxx Game](#Ataxx-Game)
-
 ###### JavaScript
 - [Full Stack Blog App with React, Node.js, Express, MySQL](#Blog-App)
 
-
-
 ______________________________
 ### Certifications
-
 ##### Amazon
 - [x] [AWS - Introduction to Amazon Quicksight.pdf](https://github.com/annetta-zheng/annetta/files/11357701/137_3_3110879_1678134335_AWS.Course.Completion.Certificate.pdf)
 - [x] [AWS - Visualizing with Quicksight.pdf](https://github.com/annetta-zheng/annetta/files/11357703/41_3_3110879_1678142217_AWS.Course.Completion.Certificate.pdf)
-
 ##### Meta
 - [x] [Meta - Introduction to Data Engineer.pdf](https://github.com/annetta-zheng/annetta/files/11357723/Coursera.6APZDH8JTYRQ.pdf)
-
 
 ______________________________
 
 ### Blog App 
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Full-Stack-Blog-App-with-React-Node.js-MySQL)
-This is a for a full stack Blog Application using React components on the front end, with a CRUD Application using NodeJS + Express + MySQL on the back end.
-<details>
-      <summary><h4>Key Features</h4> Click to expand</summary>
-      
-* One of the key features of this application is the ability for users to register and create their own blog posts. Users can write, update, and delete their blog posts powered by a MySQL database. 
-* The application also includes features such as authentication and authorization to ensure that only authorized users can create, update, and delete blog posts. 
-* Another important feature is customizing, users can view the posts filtered by categories and get posts recommendation within the same category. 
-* The React components used in the front-end include a variety of UI elements and the components are designed to be reusable, allowing developers to build complex interfaces using a combination of simple components and allowing user to post and edit a blog with rich text editors and pictures. 
-* The web app is also designed to be responsive, adapting to different screen sizes and orientations.
-</details>      
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Full-Stack-Blog-App-with-React-Node.js-MySQL) A full stack Blog Application using React components on the front end, with a CRUD Application using NodeJS + Express + MySQL on the back end.
+
+#### Key Features    
+* Account Registeration: allow users to register and upload their profile.
+* User authentication: only authorized users can create, update, and delete blog posts. 
+* Blog Posts: users can write and update with rich text editors and pictures, and delete their blog posts.
+* Customized View: users can view the posts filtered by categories and get posts recommendation within the same category. 
+* Responsive View: pages adapt to different screen sizes and orientations.
 
 <img width="582" alt="image" src="https://user-images.githubusercontent.com/67286396/234439050-2da14148-ae4c-4d76-a797-e7a0ddfe6473.png">
 
-<p align="right">^<a href="#Contact">Back to Top</a></p>
+<p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
 ------------------------------
 
 ### flask blog post web app
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/flask-blog-post-web-app)
-A Flask landing page with SQLAlchemy displaying blog posts and allowing users to login and register.
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/flask-blog-post-web-app) A Flask landing page with SQLAlchemy displaying blog posts and allowing users to login and register.
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/67286396/199391099-ee012a6b-7faa-4627-896c-4beaaa1e6735.png">
 
-<p align="right">^<a href="#Contact">Back to Top</a></p>
+<p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
 ------------------------------
 ### RESTful messenger web app
-[Code](https://github.com/annetta-zheng/web-messenger-app)
-RESTful API Project with Redis Nameko.
+[Code](https://github.com/annetta-zheng/web-messenger-app) RESTful API Project with Redis Nameko.
 
-
-<p align="right">^<a href="#Contact">Back to Top</a></p>
+<p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
 ------------------------------
 
@@ -83,7 +69,6 @@ RESTful API Project with Redis Nameko.
 [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/music-recommender)
 
 Sentiment Analysis and Music Recommendations Systems Description: a review-based recommendation system with natural language processing (NLP) and Collaborative Filtering on 1.5M review data and 75k music meta data, utilizing Python via keras framework on an AWS EC2 instance.
-
 <details>
       <summary><h4>Key Features</h4> Click to expand</summary>
       
@@ -105,17 +90,17 @@ Sentiment Analysis and Music Recommendations Systems Description: a review-based
 
 </details>  
 
-<p align="right">^<a href="#Contact">Back to Top</a></p>
+<p align="right">^<a href="#Catalogue">Back to Top</a></p>
 ------------------------------
 ### Reviews Sentiment Analyzer
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/sentiment_analysis)
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/sentiment_analysis) A basic sentiment analyzer with deep learning.
 
 * Results:
     * Accuracy on the test set using the original dictionary: 80.20%
     * Accuracy on the test set using the dictionary with stop words removed: 80.80%
 
 <details>  
-      <summary><h4>Key Features</h4> Click to expand</summary>
+      <summary><h4>Results</h4> Click to expand</summary>
 
 For the perceptron algorithm: best combination of T = 25, with validation accuracy = 79.40%
 ![Figure_4](https://user-images.githubusercontent.com/67286396/170519190-2d1c8fb1-4c49-4dd1-a3b9-6c594bce2842.png)
@@ -128,21 +113,19 @@ For the pegasos algorithm: best combination of T = 25 \lambda = 0.01, with valid
 ![Figure_7](https://user-images.githubusercontent.com/67286396/170519453-ef692e96-dd75-4c04-a340-a28d0762a820.png)
 </details>  
 
-<p align="right">^<a href="#Contact">Back to Top</a></p>
+<p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
 ------------------------------
 
 ### Local Frog Predictor
 - EY 2022 Better Working World Data Challenge, Rank 74/1222. 
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Local-Frog-Predictor/blob/main/challenge.ipynb) 
 
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Local-Frog-Predictor/blob/main/challenge.ipynb)
-
-The output will be a species distribution model of one species of frog. Species distribution models are one of the most widely used ecological tools, a cornerstone in many countries worldwide of environmental regulation and conservation.
+A species distribution model of one species of frog. Species distribution models are one of the most widely used ecological tools, a cornerstone in many countries worldwide of environmental regulation and conservation.
 
 <img width="1101" alt="image" src="https://user-images.githubusercontent.com/67286396/171982699-807c6615-083e-420f-8fe9-0c63f1f9754b.png">
 
-
-<p align="right">^<a href="#Contact">Back to Top</a></p>
+<p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
 ------------------------------
 
@@ -153,14 +136,12 @@ The output will be a species distribution model of one species of frog. Species 
 ![image](https://inst.eecs.berkeley.edu/~cs61b/sp22/materials/proj/proj0/img/figure1.png)
 ![image](https://user-images.githubusercontent.com/67286396/157542546-95e9e541-91c9-4b81-9908-22c476265729.png)  
 
-
-<p align="right">^<a href="#Contact">Back to Top</a></p>
+<p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
 ------------------------------
 
 ### Enigma Machine
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/enigma)
-For OOP, Data Structures in Java.
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/enigma) For OOP, Data Structures in Java.
     
    The Settings Line and Input: 
    ```
@@ -184,14 +165,12 @@ For OOP, Data Structures in Java.
              (gt) (hs) (ir) (jq) (kp) (lo) (mn)
 ```  
 
-
 <p align="right">^<a href="#Contact">Back to Top</a></p>
 
 ------------------------------
 
 ### Ataxx Game
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Ataxx)
-Minmax algorithm, alpha-bata pruning.
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Ataxx) Minmax algorithm, alpha-bata pruning.
 
 At the beginning of the game, we start with pieces in all four corners:
 
@@ -205,14 +184,12 @@ There are two possible kinds of moves:
 To make things even more interesting, you can place a set of blocks symmetrically about the center of the board before playing. These are pre-filled squares that may never be moved to (the blocks themselves never move). Setting blocks is only possible at the start of the game. The illustration below is an example of a starting configuration with 10 blocks. Each block is always reflected across the middle row and the middle column. In other words, there is symmetry both horizontally and vertically for any block that is placed. No block may be placed in the four corner squares, since the initial configuration has pieces there.
 ![image](https://user-images.githubusercontent.com/67286396/162054882-7bc8ccb2-7356-49ce-a2c7-e528a48ab390.png)
 
-
-<p align="right">^<a href="#Contact">Back to Top</a></p>
+<p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
 ------------------------------
 
 ### Gitlet
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Gitlet)
-A [version-control system](https://gitlet.cs61bee.org) is essentially a backup system for related collections of files. 
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Gitlet) A [version-control system](https://gitlet.cs61bee.org) is essentially a backup system for related collections of files. 
 
 The main functionality that Gitlet supports is:
 1. Saving the contents of entire directories of files. In Gitlet, this is called committing, and the saved contents themselves are called commits.
@@ -222,16 +199,16 @@ The main functionality that Gitlet supports is:
 5. Merging changes made in one branch into another.
 6. Going remote, allowing collaboration with other people over the internet. 
 <details>  
-      <summary><h4>Internal Structure</h4> Click to expand</summary>
+      <summary><h4>Internal Structure</h4> Click for image</summary>
 ![image](https://gitlet.cs61bee.org/image/commits-and-blobs.png)
 ![image](https://gitlet.cs61bee.org/image/split_point.png)
 </details>  
-<details>  
-      <summary><h5>Commands</h4> Click to expand</summary>
-By starting up the program `java gitlet.Main init`, it will create a repo directory and an initial commit through the command init().
-Based on the command run, structure of files will be saved.
-      ##### All Commands
 
+<details>  
+      <summary><h4>Commands and Sample Output</h4> Click to expand</summary><blockquote>
+    By starting up the program `java gitlet.Main init`, it will create a repo directory and an initial commit through the command init(). Based on the command run, structure of files will be saved.
+    <details><summary><h4>All Commands<h5>Click to expand</summary><blockquote>
+          
 ```
 1. java gitlet.Main add [file name]
 2. java gitlet.Main commit [message]
@@ -247,11 +224,11 @@ Based on the command run, structure of files will be saved.
 12. java gitlet.Main rm-branch [branch name]
 13. java gitlet.Main reset [commit id]
 14. java gitlet.Main merge [branch name]
-```
-      
-</details>  
-<details>  
-      <summary><h4>Sample Outputs</h4> Click to expand</summary>
+```    
+        
+        </blockquote></details>
+
+        <details><summary><h5>Sample Outputs</h5>Click to expand</summary><blockquote>
 
 ```java gitlet.Main log```
 
@@ -294,7 +271,8 @@ Based on the command run, structure of files will be saved.
   random.stuff
   ```
 
-</details>  
+            <blockquote></details>  
+            <blockquote></details> 
 
 <details>  
       <summary><h4>Edge Cases</h4> Click to expand</summary>
@@ -321,7 +299,7 @@ Once files have been updated according to the above, and the split point was not
       
 </details>  
       
-<p align="right">^<a href="#Contact">Back to Top</a></p>
+<p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
 ______________________________
 ------------------------------
