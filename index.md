@@ -74,23 +74,21 @@ Sentiment Analysis and Music Recommendations Systems Description: a review-based
 The most significant words in review texts: <img align="center" width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599154-f5964ddd-9138-49c9-8e1b-fd5b70d0f30f.png">
 The most significant words in summary texts: <img align="center" width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599389-b72f1da1-b877-4eab-88c0-74d2500b6908.png">
 
-2. Trained a stacked Autoencoder with SGD on tokenized and embedded text matrix for dimensionality reduction.
-      <img align="center" width="400" alt="image" src="https://user-images.githubusercontent.com/67286396/204599574-3ae71217-c4e7-40e4-a336-ee15429344c3.png">
+2. Trained a stacked Autoencoder with SGD on tokenized and embedded text matrix for dimensionality reduction. <img align="right" width="400" alt="image" src="https://user-images.githubusercontent.com/67286396/204599574-3ae71217-c4e7-40e4-a336-ee15429344c3.png">
       
 3. Trained a Deep Neural Network with regularization for the recommender with MAE below 0.4 and MSE below 40.
-      <img align="center" width="800" alt="image" src="https://user-images.githubusercontent.com/67286396/204600119-0ae46ce1-43fb-4221-9ae4-3b4507817285.png">
+      <img align="center" width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204600119-0ae46ce1-43fb-4221-9ae4-3b4507817285.png">
 
 <p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
 ------------------------------
 ### Reviews Sentiment Analyzer
 [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/sentiment_analysis) A basic sentiment analyzer with deep learning.
-
 * Results:
     * Accuracy on the test set using the original dictionary: 80.20%
     * Accuracy on the test set using the dictionary with stop words removed: 80.80%
 
-<details><summary><h4>Results</h4> Click to expand</summary>
+<details><summary><h4>Results under different algorithms</h4><sub> Click to expand</sub></summary>
 
 For the perceptron algorithm: best combination of T = 25, with validation accuracy = 79.40%
 ![Figure_4](https://user-images.githubusercontent.com/67286396/170519190-2d1c8fb1-4c49-4dd1-a3b9-6c594bce2842.png)
@@ -111,7 +109,7 @@ For the pegasos algorithm: best combination of T = 25 \lambda = 0.01, with valid
 [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Local-Frog-Predictor/blob/main/challenge.ipynb) - EY 2022 Better Working World Data Challenge, Rank 74/1222. 
 
 A species distribution model of one species of frog. Species distribution models are one of the most widely used ecological tools, a cornerstone in many countries worldwide of environmental regulation and conservation.
-<img align="center" width="1000" alt="image" src="https://user-images.githubusercontent.com/67286396/171982699-807c6615-083e-420f-8fe9-0c63f1f9754b.png">
+<img align="center" width="800" alt="image" src="https://user-images.githubusercontent.com/67286396/171982699-807c6615-083e-420f-8fe9-0c63f1f9754b.png">
 
 <p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
@@ -119,7 +117,6 @@ A species distribution model of one species of frog. Species distribution models
 
 ### Blocks Game
 [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Blocks) A Strategic Game.
-
 [Demo Game](https://www.cbc.ca/kidscbc2/content/games/blocks-puzzle/index.html "Click to Play!")
 
 ![image](https://inst.eecs.berkeley.edu/~cs61b/sp22/materials/proj/proj0/img/figure1.png)
@@ -130,7 +127,7 @@ A species distribution model of one species of frog. Species distribution models
 ------------------------------
 
 ### Enigma Machine
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/enigma) The encryption machine used in WWII. Topics covered: Object-oriented programming (OOP), Data Structures
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/enigma) The encryption machine used in WWII. Topics covered: Object-oriented programming (OOP), Data Structures.
     
    The Settings Line and Input: 
    ```
@@ -161,15 +158,15 @@ A species distribution model of one species of frog. Species distribution models
 ### Ataxx Game
 [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Ataxx) Minmax algorithm, alpha-bata pruning.
 
-<p>At the beginning of the game, we start with pieces in all four corners:<img align="right" height="80" src="https://user-images.githubusercontent.com/67286396/162055039-29887726-605e-4cf1-a4e8-524502033996.png"></p>
+<p>At the beginning of the game, we start with pieces in all four corners: <img align="right" height="80" src="https://user-images.githubusercontent.com/67286396/162055039-29887726-605e-4cf1-a4e8-524502033996.png"></p>
 
-There are two possible kinds of moves:
+<p>There are two possible kinds of moves:
 1. Extending - you can extend from a piece of your own color by laying down a new piece of your color in an empty square next to that existing piece (horizontally, vertically, or diagonally).
 2. Jumping - you can jump by moving a piece of your own color to an empty, non-adjacent square that is no more than two rows and no more than two columns distant.
-![image](https://user-images.githubusercontent.com/67286396/162054986-8001f120-07af-47fa-a00d-855faa3fb8fb.png)
+<img align="right" height="280" src="https://user-images.githubusercontent.com/67286396/162054986-8001f120-07af-47fa-a00d-855faa3fb8fb.png"></p>
 
 <p>To make things even more interesting, you can place a set of blocks symmetrically about the center of the board before playing. These are pre-filled squares that may never be moved to (the blocks themselves never move). Setting blocks is only possible at the start of the game. The illustration below is an example of a starting configuration with 10 blocks. Each block is always reflected across the middle row and the middle column. In other words, there is symmetry both horizontally and vertically for any block that is placed. No block may be placed in the four corner squares, since the initial configuration has pieces there.
-<img align="right" height="380" src="https://user-images.githubusercontent.com/67286396/162054882-7bc8ccb2-7356-49ce-a2c7-e528a48ab390.png"></p>
+<img align="right" height="180" src="https://user-images.githubusercontent.com/67286396/162054882-7bc8ccb2-7356-49ce-a2c7-e528a48ab390.png"></p>
 
 <p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
@@ -189,10 +186,10 @@ The main functionality that Gitlet supports is:
 ![image](https://gitlet.cs61bee.org/image/commits-and-blobs.png)
 ![image](https://gitlet.cs61bee.org/image/split_point.png)
 
-<details><summary><h4>Commands and Sample Output</h4></summary>
+<details open><summary><h4>Commands and Sample Output</h4></summary><blockquote>
 By starting up the program `java gitlet.Main init` , it will create a repo directory and an initial commit through the command init(). Based on the command run, structure of files will be saved.
       
-      * <details><summary><h4>All Commands</h4> <sub> Click to expand</sub></summary>
+      * <details><summary><h4>All Commands</h4><sub> Click to expand</sub></summary><blockquote>
       ``` 
       1. java gitlet.Main add [file name]
       2. java gitlet.Main commit [message]
@@ -211,9 +208,9 @@ By starting up the program `java gitlet.Main init` , it will create a repo direc
       ``` 
       
      End.
-    </details>
+    </blockquote></details>
       
-      * <details><summary><h4>Sample Outputs</h4> <sub> Click to expand</sub></summary>
+      * <details open><summary><h4>Sample Outputs</h4><sub> Click to expand</sub></summary><blockquote>
 
       Input: `java gitlet.Main log`
 
@@ -256,9 +253,9 @@ By starting up the program `java gitlet.Main init` , it will create a repo direc
         random.stuff
         ```
       
-      </details> 
+      </blockquote></details> 
       
-</details> 
+</blockquote></details> 
 
 <details>  
       <summary><h4>Edge Cases</h4></summary>
