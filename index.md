@@ -71,10 +71,8 @@ Sentiment Analysis and Music Recommendations Systems Description: a review-based
 #### Key Features
 1. Trained a convolutional neural network (CNN) for Sentiment Analysis on the review texts classifying the reviews as positive and negative, summarized keyword using NLTK, visualized word embeddings, and gained 91.4% test accuracy.
 <img width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599514-0c6ab305-e115-403f-bf68-8135e06a339b.png">
-
-      The most significant words in review texts: <img width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599154-f5964ddd-9138-49c9-8e1b-fd5b70d0f30f.png">
-
-      The most significant words in summary texts: <img width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599389-b72f1da1-b877-4eab-88c0-74d2500b6908.png">
+The most significant words in review texts: <img width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599154-f5964ddd-9138-49c9-8e1b-fd5b70d0f30f.png">
+The most significant words in summary texts: <img width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599389-b72f1da1-b877-4eab-88c0-74d2500b6908.png">
 
 2. Trained a stacked Autoencoder with SGD on tokenized and embedded text matrix for dimensionality reduction.
       <img width="400" alt="image" src="https://user-images.githubusercontent.com/67286396/204599574-3ae71217-c4e7-40e4-a336-ee15429344c3.png">
@@ -193,7 +191,8 @@ The main functionality that Gitlet supports is:
 ![image](https://gitlet.cs61bee.org/image/split_point.png)
 
 <details><summary><h4>Commands and Sample Output</h4></summary>
-By starting up the program ```java gitlet.Main init```, it will create a repo directory and an initial commit through the command init(). Based on the command run, structure of files will be saved.
+By starting up the program `java gitlet.Main init`, it will create a repo directory and an initial commit through the command init(). Based on the command run, structure of files will be saved.
+      
       * <details><summary><h4>All Commands</h4> <sub> Click to expand</sub></summary>
 
       ``` 
@@ -212,12 +211,13 @@ By starting up the program ```java gitlet.Main init```, it will create a repo di
       13. java gitlet.Main reset [commit id]
       14. java gitlet.Main merge [branch name]
       ``` 
-    
-          </details>
+      
+     End.
+    </details>
       
       * <details><summary><h4>Sample Outputs</h4> <sub> Click to expand</sub></summary>
 
-      ```java gitlet.Main log```
+      Input: `java gitlet.Main log`
 
           ```
           ===
@@ -236,7 +236,7 @@ By starting up the program ```java gitlet.Main init```, it will create a repo di
            initial commit
            ```
      
-      ```java gitlet.Main status```
+      Input: `java gitlet.Main status`
 
         ```
         === Branches ===
@@ -257,6 +257,7 @@ By starting up the program ```java gitlet.Main init```, it will create a repo di
         === Untracked Files ===
         random.stuff
         ```
+      
       </details> 
       
 </details> 
