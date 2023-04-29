@@ -130,7 +130,7 @@ A species distribution model of one species of frog. Species distribution models
 ### Blocks Game
 [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Blocks)
 
-[Demo Game] (https://www.cbc.ca/kidscbc2/content/games/blocks-puzzle/index.html)
+[Demo Game](https://www.cbc.ca/kidscbc2/content/games/blocks-puzzle/index.html "Click to Play!")
 
 ![image](https://inst.eecs.berkeley.edu/~cs61b/sp22/materials/proj/proj0/img/figure1.png)
 ![image](https://user-images.githubusercontent.com/67286396/157542546-95e9e541-91c9-4b81-9908-22c476265729.png)  
@@ -171,9 +171,7 @@ A species distribution model of one species of frog. Species distribution models
 ### Ataxx Game
 [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Ataxx) Minmax algorithm, alpha-bata pruning.
 
-At the beginning of the game, we start with pieces in all four corners:
-
-![image](https://user-images.githubusercontent.com/67286396/162055039-29887726-605e-4cf1-a4e8-524502033996.png)
+<p>At the beginning of the game, we start with pieces in all four corners:<img align="right" height="50" src="https://user-images.githubusercontent.com/67286396/162055039-29887726-605e-4cf1-a4e8-524502033996.png"></p>
 
 There are two possible kinds of moves:
 1. Extending - you can extend from a piece of your own color by laying down a new piece of your color in an empty square next to that existing piece (horizontally, vertically, or diagonally).
@@ -197,15 +195,13 @@ The main functionality that Gitlet supports is:
 4. Maintaining related sequences of commits, called branches.
 5. Merging changes made in one branch into another.
 6. Going remote, allowing collaboration with other people over the internet. 
-<details>  
-      <summary><h4>Internal Structure</h4> Click for image</summary><blockquote>
+#### Internal Structure
 ![image](https://gitlet.cs61bee.org/image/commits-and-blobs.png)
 ![image](https://gitlet.cs61bee.org/image/split_point.png)
-</blockquote></details>  
 
-<details><summary><h4>Commands and Sample Output</h4> Click to expand</summary><blockquote>
-    By starting up the program `java gitlet.Main init`, it will create a repo directory and an initial commit through the command init(). Based on the command run, structure of files will be saved.
-    <details><summary><h4>All Commands<h5>Click to expand</summary><blockquote>
+<details><summary><h4>Commands and Sample Output</h4></summary>
+    By starting up the program ```java gitlet.Main init```, it will create a repo directory and an initial commit through the command init(). Based on the command run, structure of files will be saved.
+    <details><summary><h5>All Commands</h5>Click to expand</summary>
 
       ``` 
       1. java gitlet.Main add [file name]
@@ -224,9 +220,9 @@ The main functionality that Gitlet supports is:
       14. java gitlet.Main merge [branch name]
       ``` 
     
-          </blockquote></details>
+          </details>
           
-    <details><summary><h5>Sample Outputs</h5>Click to expand</summary><blockquote>
+    <details><summary><h5>Sample Outputs</h5>Click to expand</summary>
 
       ```java gitlet.Main log```
 
@@ -268,9 +264,9 @@ The main functionality that Gitlet supports is:
         === Untracked Files ===
         random.stuff
         ```
-
-          <blockquote></details>  
-<blockquote></details> 
+      </details> 
+      
+</details> 
 
 <details>  
       <summary><h4>Edge Cases</h4> Click to expand</summary>
