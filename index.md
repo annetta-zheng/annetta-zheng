@@ -14,15 +14,15 @@ ______________________________
 
 #### Software Engineering 
 ###### JavaScript
-- [Full Stack Blog App with React, Node.js, Express, MySQL](#Blog-App)
+- [**Full Stack** Blog App with *React, Node.js, Express, MySQL*](#Blog-App)
 ###### Python
 - [Flask Blog Post Web App](#flask-blog-post-web-app)
 - [RESTful Messenger Web App](#RESTful-messenger-web-app)
 ###### Java
-- [Gitlet File System](#Gitlet)
+- [**Back End** Gitlet Version Control System](#Gitlet)
 - [Blocks Puzzle Game](#Blocks-Game)
-- [Enigma Machine](#Enigma-Machine)
-- [Ataxx Game](#Ataxx-Game)
+- [Enigma Cipher Machine](#Enigma-Machine)
+- [Ataxx Strategy Game](#Ataxx-Game)
 
 ______________________________
 ### Certifications
@@ -35,7 +35,7 @@ ______________________________
 ______________________________
 
 ### Blog App 
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Full-Stack-Blog-App-with-React-Node.js-MySQL) A full stack Blog Application using React components on the front end, with a CRUD Application using NodeJS + Express + MySQL on the back end.
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Full-Stack-Blog-App-with-React-Node.js-MySQL "Click for Repo!") A full stack Blog Application using React components on the front end, with a CRUD Application using NodeJS + Express + MySQL on the back end.
 
 #### Key Features    
 * Account Registeration: allow users to register and upload their profile.
@@ -51,24 +51,24 @@ ______________________________
 ------------------------------
 
 ### flask blog post web app
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/flask-blog-post-web-app) A Flask landing page with SQLAlchemy displaying blog posts and allowing users to login and register.
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/flask-blog-post-web-app "Click for Repo!") A Flask landing page with SQLAlchemy displaying blog posts and allowing users to login and register.
 <img align="center" width="1000" alt="image" src="https://user-images.githubusercontent.com/67286396/199391099-ee012a6b-7faa-4627-896c-4beaaa1e6735.png">
 
 <p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
 ------------------------------
 ### RESTful messenger web app
-[Code](https://github.com/annetta-zheng/web-messenger-app) RESTful API Project with Redis Nameko.
+[Code](https://github.com/annetta-zheng/web-messenger-app "Click for Repo!") RESTful API Project with Redis Nameko.
 
 <p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
 ------------------------------
 
 ### Sentiment Analysis and Music Recommendations Systems	
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/music-recommender)
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/music-recommender "Click for Repo!")
 
 Sentiment Analysis and Music Recommendations Systems Description: a review-based recommendation system with natural language processing (NLP) and Collaborative Filtering on 1.5M review data and 75k music meta data, utilizing Python via keras framework on an AWS EC2 instance.
-#### Key Features
+#### Key Models
 1. Trained a convolutional neural network (CNN) for Sentiment Analysis on the review texts classifying the reviews as positive and negative, summarized keyword using NLTK, visualized word embeddings, and gained 91.4% test accuracy.
 <img align="center" width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599514-0c6ab305-e115-403f-bf68-8135e06a339b.png"><br>
 The most significant words in review texts: <img align="center" width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599154-f5964ddd-9138-49c9-8e1b-fd5b70d0f30f.png"><br>
@@ -76,7 +76,7 @@ The most significant words in summary texts: <img align="center" width="769" alt
 
 2. Trained a stacked Autoencoder with SGD on tokenized and embedded text matrix for dimensionality reduction. 
 
-<img align="center" width="400" alt="image" src="https://user-images.githubusercontent.com/67286396/204599574-3ae71217-c4e7-40e4-a336-ee15429344c3.png"><br>
+<img align="center" width="400" alt="image" src="https://user-images.githubusercontent.com/67286396/204599574-3ae71217-c4e7-40e4-a336-ee15429344c3.png">
       
 3. Trained a Deep Neural Network with regularization for the recommender with MAE below 0.4 and MSE below 40.
       <img align="center" width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204600119-0ae46ce1-43fb-4221-9ae4-3b4507817285.png">
@@ -85,7 +85,7 @@ The most significant words in summary texts: <img align="center" width="769" alt
 
 ------------------------------
 ### Reviews Sentiment Analyzer
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/sentiment_analysis) A basic sentiment analyzer with deep learning.
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/sentiment_analysis "Click for Repo!") A basic sentiment analyzer with deep learning.
 * Results:
     * Accuracy on the test set using the original dictionary: 80.20%
     * Accuracy on the test set using the dictionary with stop words removed: 80.80%
@@ -108,7 +108,7 @@ For the pegasos algorithm: best combination of T = 25 \lambda = 0.01, with valid
 ------------------------------
 
 ### Local Frog Predictor
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Local-Frog-Predictor/blob/main/challenge.ipynb) - EY 2022 Better Working World Data Challenge, Rank 74/1222. 
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Local-Frog-Predictor/blob/main/challenge.ipynb "Click for Repo!") - EY 2022 Better Working World Data Challenge, Rank 74/1222. 
 
 A species distribution model of one species of frog. Species distribution models are one of the most widely used ecological tools, a cornerstone in many countries worldwide of environmental regulation and conservation.
 <img align="center" width="1000" alt="image" src="https://user-images.githubusercontent.com/67286396/171982699-807c6615-083e-420f-8fe9-0c63f1f9754b.png">
@@ -118,7 +118,7 @@ A species distribution model of one species of frog. Species distribution models
 ------------------------------
 
 ### Blocks Game
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Blocks) A Strategic Game.
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Blocks "Click for Repo!") A Strategic Game. Topics covered: Object-oriented programming (OOP), Data Structures.
 [Demo Game](https://www.cbc.ca/kidscbc2/content/games/blocks-puzzle/index.html "Click to Play!")
 
 ![image](https://inst.eecs.berkeley.edu/~cs61b/sp22/materials/proj/proj0/img/figure1.png)
@@ -129,7 +129,7 @@ A species distribution model of one species of frog. Species distribution models
 ------------------------------
 
 ### Enigma Machine
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/enigma) The encryption machine used in WWII. Topics covered: Object-oriented programming (OOP), Data Structures.
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/enigma "Click for Repo!") The [Germany encryption machine](https://en.wikipedia.org/wiki/Enigma_machine "Click for Details!") used in WWII. Topics covered: Object-oriented programming (OOP), Data Structures.
     
    The Settings Line and Input: 
    ```
@@ -158,7 +158,7 @@ A species distribution model of one species of frog. Species distribution models
 ------------------------------
 
 ### Ataxx Game
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Ataxx) Minmax algorithm, alpha-bata pruning.
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Ataxx "Click for Repo!") Minmax algorithm, alpha-bata pruning.
 
 <p>
       <img align="left" height="120" src="https://user-images.githubusercontent.com/67286396/162055039-29887726-605e-4cf1-a4e8-524502033996.png">
@@ -174,7 +174,7 @@ There are two possible kinds of moves: <br><img align="right" height="120" src="
 ------------------------------
 
 ### Gitlet
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Gitlet) A [version-control system](https://gitlet.cs61bee.org) is essentially a backup system for related collections of files. 
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Gitlet "Click for Repo!") A [version-control system](https://gitlet.cs61bee.org "Click for Details!") is essentially a backup system for related collections of files. 
 
 The main functionality that Gitlet supports is:
 1. Saving the contents of entire directories of files. In Gitlet, this is called committing, and the saved contents themselves are called commits.
@@ -209,7 +209,7 @@ By starting up the program `java gitlet.Main init` , it will create a repo direc
       14. java gitlet.Main merge [branch name]
       ``` 
             
-</details close>
+      </details close>
 </details close>    
 
 <details open><summary><h4>Sample Outputs</h4><sub> Click to expand</sub></summary>
@@ -274,7 +274,7 @@ Any files modified in different ways in the current and given branches are in co
 Once files have been updated according to the above, and the split point was not the current branch or the given branch, merge automatically commits with the log message Merged [given branch name] into [current branch name]. Then, if the merge encountered a conflict, print the message Encountered a merge conflict. on the terminal (not the log). Merge commits differ from other commits: they record as parents both the head of the current branch (called the first parent) and the head of the branch given on the command line to be merged in.
 
 2. Criss-cross Merges
-![image](https://user-images.githubusercontent.com/67286396/167206258-25b6e353-5ca9-4052-8121-190b188be1dd.png)
+<img align="center" width="1000" alt="image" src="https://user-images.githubusercontent.com/67286396/167206258-25b6e353-5ca9-4052-8121-190b188be1dd.png">
 
  - Choose the candidate split point that is closest to the head of the current branch (that is, is reachable by following the fewest parent pointers along some path). 
  - If multiple candidates are at the same closest distance, choose any one of them as the split point. (We will make sure that this only happens in our test cases when the resulting merge commit is the same with any of the closest choices.)
