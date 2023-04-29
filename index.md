@@ -30,6 +30,10 @@ Please share any feedback, or if you want to connect 😄
 - [Ataxx Strategy Game](#Ataxx-Game)
 
 ------------------------------
+<!-- {% include_relative _includes/publications.md %}
+
+{% include_relative _includes/services.md %} -->
+
 ### Certifications
 #### Amazon
 - [x] [AWS - Introduction to Amazon Quicksight.pdf](https://github.com/annetta-zheng/annetta/files/11357701/137_3_3110879_1678134335_AWS.Course.Completion.Certificate.pdf)
