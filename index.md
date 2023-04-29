@@ -1,7 +1,7 @@
 ## Welcome to My Page
 
 ### Contact
-Please share any feedback, or if you want to connect: [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/junwen-zheng-789569195/ "My LinkedIn") | [![Email](<img width="2000" alt="image" src="https://user-images.githubusercontent.com/67286396/235269612-5f168df1-48a2-4f1a-8c84-5b24d4ede83a.png">)](mailto:annetta@berkeley.edu)
+Please share any feedback, or if you want to connect: [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/junwen-zheng-789569195/ "My LinkedIn") | [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:annetta@berkeley.edu)
 
 ______________________________
 
@@ -45,8 +45,7 @@ ______________________________
 
 ______________________________
 
-### [Blog App]
-[(Click for repo)](https://github.com/annetta-zheng/Full-Stack-Blog-App-with-React-Node.js-MySQL)
+### Blog App [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Full-Stack-Blog-App-with-React-Node.js-MySQL)
 
 This is a for a full stack Blog Application using React components on the front end, with a CRUD Application using NodeJS + Express + MySQL on the back end.
 
