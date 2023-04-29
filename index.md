@@ -1,6 +1,5 @@
 ## Welcome to My Page
-
-Please share any feedback, or if you want to connect :smile: [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/junwen-zheng-789569195/ "My LinkedIn") [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:annetta@berkeley.edu "Write an Email")
+Last Updated on Apr 28, 2023. Please share any feedback, or if you want to connect :smile: [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/junwen-zheng-789569195/ "My LinkedIn") [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:annetta@berkeley.edu "Write an Email")
 ______________________________
 ### Catalogue
 
@@ -14,6 +13,8 @@ ______________________________
 - [Local Frog Predictor](#Local-Frog-Predictor)
 
 #### Software Engineering 
+###### JavaScript
+- [Full Stack Blog App with React, Node.js, Express, MySQL](#Blog-App)
 ###### Python
 - [Flask Blog Post Web App](#flask-blog-post-web-app)
 - [RESTful Messenger Web App](#RESTful-messenger-web-app)
@@ -22,8 +23,6 @@ ______________________________
 - [Blocks Puzzle Game](#Blocks-Game)
 - [Enigma Machine](#Enigma-Machine)
 - [Ataxx Game](#Ataxx-Game)
-###### JavaScript
-- [Full Stack Blog App with React, Node.js, Express, MySQL](#Blog-App)
 
 ______________________________
 ### Certifications
@@ -72,13 +71,14 @@ Sentiment Analysis and Music Recommendations Systems Description: a review-based
 #### Key Features
       
 1. Trained a convolutional neural network (CNN) for Sentiment Analysis on the review texts classifying the reviews as positive and negative, summarized keyword using NLTK, visualized word embeddings, and gained 91.4% test accuracy.
-
-      <img width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599514-0c6ab305-e115-403f-bf68-8135e06a339b.png">
+<img width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599514-0c6ab305-e115-403f-bf68-8135e06a339b.png">
 
       The most significant words in review texts:
+      
 <img width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599154-f5964ddd-9138-49c9-8e1b-fd5b70d0f30f.png">
 
       The most significant words in summary texts:
+      
 <img width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599389-b72f1da1-b877-4eab-88c0-74d2500b6908.png">
 
 2. Trained a stacked Autoencoder with SGD on tokenized and embedded text matrix for dimensionality reduction.
@@ -97,8 +97,7 @@ Sentiment Analysis and Music Recommendations Systems Description: a review-based
     * Accuracy on the test set using the original dictionary: 80.20%
     * Accuracy on the test set using the dictionary with stop words removed: 80.80%
 
-<details>  
-      <summary><h4>Results</h4> Click to expand</summary>
+<details><summary><h4>Results</h4> Click to expand</summary>
 
 For the perceptron algorithm: best combination of T = 25, with validation accuracy = 79.40%
 ![Figure_4](https://user-images.githubusercontent.com/67286396/170519190-2d1c8fb1-4c49-4dd1-a3b9-6c594bce2842.png)
@@ -121,7 +120,7 @@ For the pegasos algorithm: best combination of T = 25 \lambda = 0.01, with valid
 
 A species distribution model of one species of frog. Species distribution models are one of the most widely used ecological tools, a cornerstone in many countries worldwide of environmental regulation and conservation.
 
-<img width="1101" alt="image" src="https://user-images.githubusercontent.com/67286396/171982699-807c6615-083e-420f-8fe9-0c63f1f9754b.png">
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/67286396/171982699-807c6615-083e-420f-8fe9-0c63f1f9754b.png">
 
 <p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
@@ -164,14 +163,14 @@ A species distribution model of one species of frog. Species distribution models
              (gt) (hs) (ir) (jq) (kp) (lo) (mn)
 ```  
 
-<p align="right">^<a href="#Contact">Back to Top</a></p>
+<p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
 ------------------------------
 
 ### Ataxx Game
 [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Ataxx) Minmax algorithm, alpha-bata pruning.
 
-<p>At the beginning of the game, we start with pieces in all four corners:<img align="right" height="50" src="https://user-images.githubusercontent.com/67286396/162055039-29887726-605e-4cf1-a4e8-524502033996.png"></p>
+<p>At the beginning of the game, we start with pieces in all four corners:<img align="right" height="30" src="https://user-images.githubusercontent.com/67286396/162055039-29887726-605e-4cf1-a4e8-524502033996.png"></p>
 
 There are two possible kinds of moves:
 1. Extending - you can extend from a piece of your own color by laying down a new piece of your color in an empty square next to that existing piece (horizontally, vertically, or diagonally).
@@ -200,7 +199,7 @@ The main functionality that Gitlet supports is:
 ![image](https://gitlet.cs61bee.org/image/split_point.png)
 
 <details><summary><h4>Commands and Sample Output</h4></summary>
-    By starting up the program ```java gitlet.Main init```, it will create a repo directory and an initial commit through the command init(). Based on the command run, structure of files will be saved.
+By starting up the program `java gitlet.Main init`, it will create a repo directory and an initial commit through the command init(). Based on the command run, structure of files will be saved.
     <details><summary><h5>All Commands</h5>Click to expand</summary>
 
       ``` 
