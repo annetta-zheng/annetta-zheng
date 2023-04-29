@@ -69,9 +69,11 @@ ______________________________
 
 Sentiment Analysis and Music Recommendations Systems Description: a review-based recommendation system with natural language processing (NLP) and Collaborative Filtering on 1.5M review data and 75k music meta data, utilizing Python via keras framework on an AWS EC2 instance.
 #### Key Models
+
 | 1. Convolutional Neural Network | Two | Three | Four    | Five  | Six 
-| :---:
+| -
 | Span <td colspan=3>triple  <td colspan=2>double
+      
 1. Trained a  (CNN) for Sentiment Analysis on the review texts classifying the reviews as positive and negative, summarized keyword using NLTK, visualized word embeddings, and gained 91.4% test accuracy.
 <img align="center" width="750" alt="image" src="https://user-images.githubusercontent.com/67286396/204599514-0c6ab305-e115-403f-bf68-8135e06a339b.png"><br>
 |The most significant words in review texts|The most significant words in summary texts|
