@@ -158,15 +158,15 @@ A species distribution model of one species of frog. Species distribution models
 ### Ataxx Game
 [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Ataxx) Minmax algorithm, alpha-bata pruning.
 
-<p>At the beginning of the game, we start with pieces in all four corners: <img align="left" height="120" src="https://user-images.githubusercontent.com/67286396/162055039-29887726-605e-4cf1-a4e8-524502033996.png"></p>
-<br>
-<p>There are two possible kinds of moves:<br>
+<p>
+      <img align="left" height="120" src="https://user-images.githubusercontent.com/67286396/162055039-29887726-605e-4cf1-a4e8-524502033996.png">
+      At the beginning of the game, we start with pieces in all four corners. <br>
+There are two possible kinds of moves: <br>
 1. Extending - you can extend from a piece of your own color by laying down a new piece of your color in an empty square next to that existing piece (horizontally, vertically, or diagonally).<br>
 2. Jumping - you can jump by moving a piece of your own color to an empty, non-adjacent square that is no more than two rows and no more than two columns distant.<br>
-<img align="right" height="120" src="https://user-images.githubusercontent.com/67286396/162054986-8001f120-07af-47fa-a00d-855faa3fb8fb.png"></p>
-<br>
-<p>To make things even more interesting, you can place a set of blocks symmetrically about the center of the board before playing. These are pre-filled squares that may never be moved to (the blocks themselves never move). Setting blocks is only possible at the start of the game. The illustration below is an example of a starting configuration with 10 blocks. Each block is always reflected across the middle row and the middle column. In other words, there is symmetry both horizontally and vertically for any block that is placed. No block may be placed in the four corner squares, since the initial configuration has pieces there.
-<img align="right" height="120" src="https://user-images.githubusercontent.com/67286396/162054882-7bc8ccb2-7356-49ce-a2c7-e528a48ab390.png"></p>
+<img align="right" height="120" src="https://user-images.githubusercontent.com/67286396/162054986-8001f120-07af-47fa-a00d-855faa3fb8fb.png">
+To make things even more interesting, you can place a set of blocks symmetrically about the center of the board before playing. These are pre-filled squares that may never be moved to (the blocks themselves never move). Setting blocks is only possible at the start of the game. The illustration below is an example of a starting configuration with 10 blocks. Each block is always reflected across the middle row and the middle column. In other words, there is symmetry both horizontally and vertically for any block that is placed. No block may be placed in the four corner squares, since the initial configuration has pieces there.
+<img align="center" height="120" src="https://user-images.githubusercontent.com/67286396/162054882-7bc8ccb2-7356-49ce-a2c7-e528a48ab390.png"></p>
 
 <p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
@@ -188,9 +188,9 @@ The main functionality that Gitlet supports is:
 
 <details open><summary><h4>Commands and Sample Output</h4></summary><blockquote>
       
-By starting up the program `java gitlet.Main init` , it will create a repo directory and an initial commit through the command init(). Based on the command run, structure of files will be saved.
+      By starting up the program `java gitlet.Main init` , it will create a repo directory and an initial commit through the command init(). Based on the command run, structure of files will be saved.
       
-      <details><summary><h4>All Commands</h4><sub> Click to expand</sub></summary><blockquote>
+      <details><summary>All Commands<sub> Click to expand</sub></summary><blockquote>
       
       ``` 
       1. java gitlet.Main add [file name]
@@ -209,9 +209,9 @@ By starting up the program `java gitlet.Main init` , it will create a repo direc
       14. java gitlet.Main merge [branch name]
       ``` 
             
-      <br>
       </blockquote></details>
-      <details open><summary><h4>Sample Outputs</h4><sub> Click to expand</sub></summary><blockquote>
+      
+      <details open><summary>Sample Outputs<sub> Click to expand</sub></summary><blockquote>
 
       Input: `java gitlet.Main log`
 
@@ -254,9 +254,10 @@ By starting up the program `java gitlet.Main init` , it will create a repo direc
         random.stuff
         ```
       
-      </blockquote></details>      
+      </blockquote></details>  
+      
 </blockquote></details> 
-<br>
+
 <details>  
       <summary><h4>Edge Cases</h4></summary>
 
