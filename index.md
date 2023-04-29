@@ -74,7 +74,8 @@ Sentiment Analysis and Music Recommendations Systems Description: a review-based
 The most significant words in review texts: <img align="center" width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599154-f5964ddd-9138-49c9-8e1b-fd5b70d0f30f.png"><br>
 The most significant words in summary texts: <img align="center" width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599389-b72f1da1-b877-4eab-88c0-74d2500b6908.png">
 
-2. Trained a stacked Autoencoder with SGD on tokenized and embedded text matrix for dimensionality reduction. <img align="right" width="400" alt="image" src="https://user-images.githubusercontent.com/67286396/204599574-3ae71217-c4e7-40e4-a336-ee15429344c3.png"><br>
+2. Trained a stacked Autoencoder with SGD on tokenized and embedded text matrix for dimensionality reduction. 
+<img align="center" width="400" alt="image" src="https://user-images.githubusercontent.com/67286396/204599574-3ae71217-c4e7-40e4-a336-ee15429344c3.png"><br>
       
 3. Trained a Deep Neural Network with regularization for the recommender with MAE below 0.4 and MSE below 40.
       <img align="center" width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204600119-0ae46ce1-43fb-4221-9ae4-3b4507817285.png">
@@ -160,11 +161,11 @@ A species distribution model of one species of frog. Species distribution models
 
 <p>
       <img align="left" height="120" src="https://user-images.githubusercontent.com/67286396/162055039-29887726-605e-4cf1-a4e8-524502033996.png">
-      At the beginning of the game, we start with pieces in all four corners. <br>
+      At the beginning of the game, we start with pieces in all four corners. <br><br><br><br>
 There are two possible kinds of moves: <br>
 1. Extending - you can extend from a piece of your own color by laying down a new piece of your color in an empty square next to that existing piece (horizontally, vertically, or diagonally).<br>
 2. Jumping - you can jump by moving a piece of your own color to an empty, non-adjacent square that is no more than two rows and no more than two columns distant.<br>
-<img align="right" height="120" src="https://user-images.githubusercontent.com/67286396/162054986-8001f120-07af-47fa-a00d-855faa3fb8fb.png">
+<img align="right" height="120" src="https://user-images.githubusercontent.com/67286396/162054986-8001f120-07af-47fa-a00d-855faa3fb8fb.png"><br><br><br>
 To make things even more interesting, you can place a set of blocks symmetrically about the center of the board before playing. These are pre-filled squares that may never be moved to (the blocks themselves never move). Setting blocks is only possible at the start of the game. The illustration below is an example of a starting configuration with 10 blocks. Each block is always reflected across the middle row and the middle column. In other words, there is symmetry both horizontally and vertically for any block that is placed. No block may be placed in the four corner squares, since the initial configuration has pieces there.
 <img align="center" height="120" src="https://user-images.githubusercontent.com/67286396/162054882-7bc8ccb2-7356-49ce-a2c7-e528a48ab390.png"></p>
 
@@ -189,8 +190,8 @@ The main functionality that Gitlet supports is:
 <details open><summary><h4>Commands and Sample Output</h4></summary><blockquote>
       
       By starting up the program `java gitlet.Main init` , it will create a repo directory and an initial commit through the command init(). Based on the command run, structure of files will be saved.
-      
-      <details><summary>All Commands<sub> Click to expand</sub></summary><blockquote>
+      <ul>
+      <li><details><summary>All Commands<sub> Click to expand</sub></summary><blockquote></li>
       
       ``` 
       1. java gitlet.Main add [file name]
@@ -209,9 +210,9 @@ The main functionality that Gitlet supports is:
       14. java gitlet.Main merge [branch name]
       ``` 
             
-      </blockquote></details>
+      </blockquote close></details>
       
-      <details open><summary>Sample Outputs<sub> Click to expand</sub></summary><blockquote>
+      <li><details open><summary>Sample Outputs<sub> Click to expand</sub></summary><blockquote></li>
 
       Input: `java gitlet.Main log`
 
@@ -255,7 +256,7 @@ The main functionality that Gitlet supports is:
         ```
       
       </blockquote></details>  
-      
+</ul>      
 </blockquote></details> 
 
 <details>  
