@@ -1,6 +1,14 @@
+# This file contains configuration flags to customize my site
 theme: jekyll-theme-minimal
 
 # Name of your site (displayed in the header)
 name: "Annetta's blog"
 # Short bio or description (displayed in the header)
 description: ""
+
+# Gitalk
+gitalk:
+  clientID: db979e7bf4ef0e309806
+  clientSecret: 00e30f039a0c0b46ceafcb9d55d397e2d23d9d59
+  repo: annetta-zheng.github.io
+  owner: annetta-zheng
