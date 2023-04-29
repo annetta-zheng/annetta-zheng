@@ -76,7 +76,7 @@ The most significant words in summary texts: <img align="center" width="769" alt
 
 2. Trained a stacked Autoencoder with SGD on tokenized and embedded text matrix for dimensionality reduction. 
 
-<img align="center" width="400" alt="image" src="https://user-images.githubusercontent.com/67286396/204599574-3ae71217-c4e7-40e4-a336-ee15429344c3.png">
+<img align="center" width="350" alt="image" src="https://user-images.githubusercontent.com/67286396/204599574-3ae71217-c4e7-40e4-a336-ee15429344c3.png">
       
 3. Trained a Deep Neural Network with regularization for the recommender with MAE below 0.4 and MSE below 40.
       <img align="center" width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204600119-0ae46ce1-43fb-4221-9ae4-3b4507817285.png">
@@ -186,8 +186,8 @@ The main functionality that Gitlet supports is:
 
 <details><summary><h4>Internal Structure</h4><sub> Click to expand</sub></summary>
 
-<img align="center" width="1000" alt="image" src="https://user-images.githubusercontent.com/67286396/235281144-40d73837-3f8d-4875-a56f-0ae5edd419d1.png">
-<img align="center" width="1000" alt="image" src="https://user-images.githubusercontent.com/67286396/235281161-679d7983-5f40-4afd-b5cf-44ccb2b42601.png">
+<img align="center" width="800" alt="image" src="https://user-images.githubusercontent.com/67286396/235281144-40d73837-3f8d-4875-a56f-0ae5edd419d1.png">
+<img align="center" width="800" alt="image" src="https://user-images.githubusercontent.com/67286396/235281161-679d7983-5f40-4afd-b5cf-44ccb2b42601.png">
 
 </details>
       
