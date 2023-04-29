@@ -1,10 +1,17 @@
 # This file contains configuration flags to customize my site
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 
-# Name of your site (displayed in the header)
+# Basic Information 
 name: "Annetta's blog"
-# Short bio or description (displayed in the header)
 description: ""
+title: Annetta 
+# position: Ph.D. Student
+# affiliation: Your Affiliation
+email: annetta@berkeley.edu
+linkedin: https://www.linkedin.com/in/junwen-zheng-789569195/
+github_link: https://annetta-zheng.github.io
+
+google_analytics: UA-111540567-4
 
 # Gitalk
 gitalk:
@@ -12,3 +19,5 @@ gitalk:
   clientSecret: 00e30f039a0c0b46ceafcb9d55d397e2d23d9d59
   repo: annetta-zheng.github.io
   owner: annetta-zheng
+  
+  
