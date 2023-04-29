@@ -1,5 +1,5 @@
 ---
-layout: homepage
+layout: default
 ---
 # Welcome to My Page
 👋 Hi, I’m @annetta-zheng <br>
