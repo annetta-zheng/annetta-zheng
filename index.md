@@ -78,30 +78,30 @@ Sentiment Analysis and Music Recommendations Systems Description: a review-based
   </tr>
   <tr>
     <td colspan="2"> 
-      - with NLTK for Sentiment Analysis
-      - Results: 91.4% test accuracy 
+      <sub>with NLTK for Sentiment Analysis<br>
+      Results: 91.4% test accuracy</sub>
     </td>
     <td> 
-      - with SGD on tokenized embeddings 
-      - dimensionality reduction
+      <sub>with SGD on tokenized embeddings<br>
+      dimensionality reduction</sub>
     </td>
     <td> 
-      - with regularization for the recommender 
-      - Results: MAE below 0.4 and MSE below 40
+      <sub>with regularization for the recommender<br>
+      Results: MAE below 0.4 and MSE below 40</sub>
     </td>
   </tr>
   <tr>
     <td><sub><sub>Most significant token in review</sub></sub></td>
     <td><sub><sub>Most significant token in summary</sub></sub></td>
     <td rowspan="3"><img align="center" width="200" alt="image" src="https://user-images.githubusercontent.com/67286396/204599574-3ae71217-c4e7-40e4-a336-ee15429344c3.png"></td>  
-    <td rowspan="3"><img align="center" width="450" alt="image" src="https://user-images.githubusercontent.com/67286396/204600119-0ae46ce1-43fb-4221-9ae4-3b4507817285.png"></td>  
+    <td rowspan="3"><img align="center" width="480" alt="image" src="https://user-images.githubusercontent.com/67286396/204600119-0ae46ce1-43fb-4221-9ae4-3b4507817285.png"></td>  
   </tr>
   <tr>
-    <td><img align="center" width="200" alt="image" src="https://user-images.githubusercontent.com/67286396/204599154-f5964ddd-9138-49c9-8e1b-fd5b70d0f30f.png"></td>
-    <td><img align="center" width="200" alt="image" src="https://user-images.githubusercontent.com/67286396/204599389-b72f1da1-b877-4eab-88c0-74d2500b6908.png"></td>
+    <td><img align="center" width="210" alt="image" src="https://user-images.githubusercontent.com/67286396/204599154-f5964ddd-9138-49c9-8e1b-fd5b70d0f30f.png"></td>
+    <td><img align="center" width="210" alt="image" src="https://user-images.githubusercontent.com/67286396/204599389-b72f1da1-b877-4eab-88c0-74d2500b6908.png"></td>
   </tr>
   <tr>
-  <td colspan="2"><img align="center" width="400" alt="image" src="https://user-images.githubusercontent.com/67286396/204599514-0c6ab305-e115-403f-bf68-8135e06a339b.png"></td>
+  <td colspan="2"><img align="center" width="420" alt="image" src="https://user-images.githubusercontent.com/67286396/204599514-0c6ab305-e115-403f-bf68-8135e06a339b.png"></td>
   </tr>
 </table>
 
