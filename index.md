@@ -183,11 +183,13 @@ The main functionality that Gitlet supports is:
 4. Maintaining related sequences of commits, called branches.
 5. Merging changes made in one branch into another.
 6. Going remote, allowing collaboration with other people over the internet. 
-#### Internal Structure
+
+<details><summary><h4>Internal Structure</h4><sub> Click to expand</sub></summary>
 ![image](https://gitlet.cs61bee.org/image/commits-and-blobs.png)
 ![image](https://gitlet.cs61bee.org/image/split_point.png)
-
-<details><summary><h4>Commands</h4><sub> Click to expand</sub></summary>
+</details>
+      
+<details><summary><h4>Commands, Outputs, and Edge Cases</h4><sub> Click to expand</sub></summary>
 
 By starting up the program `java gitlet.Main init` , it will create a repo directory and an initial commit through the command init(). Based on the command run, structure of files will be saved.
       <details open><summary>All Commands<sub> Click to expand</sub></summary>
