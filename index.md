@@ -70,11 +70,11 @@ ______________________________
 Sentiment Analysis and Music Recommendations Systems Description: a review-based recommendation system with natural language processing (NLP) and Collaborative Filtering on 1.5M review data and 75k music meta data, utilizing Python via keras framework on an AWS EC2 instance.
 #### Key Features
 1. Trained a convolutional neural network (CNN) for Sentiment Analysis on the review texts classifying the reviews as positive and negative, summarized keyword using NLTK, visualized word embeddings, and gained 91.4% test accuracy.
-<img align="center" width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599514-0c6ab305-e115-403f-bf68-8135e06a339b.png">
-The most significant words in review texts: <img align="center" width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599154-f5964ddd-9138-49c9-8e1b-fd5b70d0f30f.png">
+<img align="center" width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599514-0c6ab305-e115-403f-bf68-8135e06a339b.png"><br>
+The most significant words in review texts: <img align="center" width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599154-f5964ddd-9138-49c9-8e1b-fd5b70d0f30f.png"><br>
 The most significant words in summary texts: <img align="center" width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599389-b72f1da1-b877-4eab-88c0-74d2500b6908.png">
 
-2. Trained a stacked Autoencoder with SGD on tokenized and embedded text matrix for dimensionality reduction. <img align="right" width="400" alt="image" src="https://user-images.githubusercontent.com/67286396/204599574-3ae71217-c4e7-40e4-a336-ee15429344c3.png">
+2. Trained a stacked Autoencoder with SGD on tokenized and embedded text matrix for dimensionality reduction. <img align="right" width="400" alt="image" src="https://user-images.githubusercontent.com/67286396/204599574-3ae71217-c4e7-40e4-a336-ee15429344c3.png"><br>
       
 3. Trained a Deep Neural Network with regularization for the recommender with MAE below 0.4 and MSE below 40.
       <img align="center" width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204600119-0ae46ce1-43fb-4221-9ae4-3b4507817285.png">
@@ -109,7 +109,7 @@ For the pegasos algorithm: best combination of T = 25 \lambda = 0.01, with valid
 [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Local-Frog-Predictor/blob/main/challenge.ipynb) - EY 2022 Better Working World Data Challenge, Rank 74/1222. 
 
 A species distribution model of one species of frog. Species distribution models are one of the most widely used ecological tools, a cornerstone in many countries worldwide of environmental regulation and conservation.
-<img align="center" width="800" alt="image" src="https://user-images.githubusercontent.com/67286396/171982699-807c6615-083e-420f-8fe9-0c63f1f9754b.png">
+<img align="center" width="1000" alt="image" src="https://user-images.githubusercontent.com/67286396/171982699-807c6615-083e-420f-8fe9-0c63f1f9754b.png">
 
 <p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
@@ -159,12 +159,12 @@ A species distribution model of one species of frog. Species distribution models
 [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Ataxx) Minmax algorithm, alpha-bata pruning.
 
 <p>At the beginning of the game, we start with pieces in all four corners: <img align="right" height="80" src="https://user-images.githubusercontent.com/67286396/162055039-29887726-605e-4cf1-a4e8-524502033996.png"></p>
-
-<p>There are two possible kinds of moves:
-1. Extending - you can extend from a piece of your own color by laying down a new piece of your color in an empty square next to that existing piece (horizontally, vertically, or diagonally).
-2. Jumping - you can jump by moving a piece of your own color to an empty, non-adjacent square that is no more than two rows and no more than two columns distant.
+<br>
+<p>There are two possible kinds of moves:<br>
+1. Extending - you can extend from a piece of your own color by laying down a new piece of your color in an empty square next to that existing piece (horizontally, vertically, or diagonally).<br>
+2. Jumping - you can jump by moving a piece of your own color to an empty, non-adjacent square that is no more than two rows and no more than two columns distant.<br>
 <img align="right" height="280" src="https://user-images.githubusercontent.com/67286396/162054986-8001f120-07af-47fa-a00d-855faa3fb8fb.png"></p>
-
+<br>
 <p>To make things even more interesting, you can place a set of blocks symmetrically about the center of the board before playing. These are pre-filled squares that may never be moved to (the blocks themselves never move). Setting blocks is only possible at the start of the game. The illustration below is an example of a starting configuration with 10 blocks. Each block is always reflected across the middle row and the middle column. In other words, there is symmetry both horizontally and vertically for any block that is placed. No block may be placed in the four corner squares, since the initial configuration has pieces there.
 <img align="right" height="180" src="https://user-images.githubusercontent.com/67286396/162054882-7bc8ccb2-7356-49ce-a2c7-e528a48ab390.png"></p>
 
@@ -187,9 +187,10 @@ The main functionality that Gitlet supports is:
 ![image](https://gitlet.cs61bee.org/image/split_point.png)
 
 <details open><summary><h4>Commands and Sample Output</h4></summary><blockquote>
-By starting up the program `java gitlet.Main init` , it will create a repo directory and an initial commit through the command init(). Based on the command run, structure of files will be saved.
+By starting up the program `java gitlet.Main init` , it will create a repo directory and an initial commit through the command init(). Based on the command run, structure of files will be saved.<br>
       
       * <details><summary><h4>All Commands</h4><sub> Click to expand</sub></summary><blockquote>
+      
       ``` 
       1. java gitlet.Main add [file name]
       2. java gitlet.Main commit [message]
@@ -207,7 +208,7 @@ By starting up the program `java gitlet.Main init` , it will create a repo direc
       14. java gitlet.Main merge [branch name]
       ``` 
       
-     End.
+     End.<br>
     </blockquote></details>
       
       * <details open><summary><h4>Sample Outputs</h4><sub> Click to expand</sub></summary><blockquote>
