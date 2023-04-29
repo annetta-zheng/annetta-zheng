@@ -93,7 +93,7 @@ Sentiment Analysis and Music Recommendations Systems Description: a review-based
   <tr>
     <td><sub><sub>Most significant token in review</sub></sub></td>
     <td><sub><sub>Most significant token in summary</sub></sub></td>
-    <td rowspan="3"><img align="center" width="250" alt="image" src="https://user-images.githubusercontent.com/67286396/204599574-3ae71217-c4e7-40e4-a336-ee15429344c3.png"></td>  
+    <td rowspan="3"><img align="center" width="200" alt="image" src="https://user-images.githubusercontent.com/67286396/204599574-3ae71217-c4e7-40e4-a336-ee15429344c3.png"></td>  
     <td rowspan="3"><img align="center" width="450" alt="image" src="https://user-images.githubusercontent.com/67286396/204600119-0ae46ce1-43fb-4221-9ae4-3b4507817285.png"></td>  
   </tr>
   <tr>
