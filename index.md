@@ -199,10 +199,10 @@ The main functionality that Gitlet supports is:
 5. Merging changes made in one branch into another.
 6. Going remote, allowing collaboration with other people over the internet. 
 <details>  
-      <summary><h4>Internal Structure</h4> Click for image</summary>
+      <summary><h4>Internal Structure</h4> Click for image</summary><blockquote>
 ![image](https://gitlet.cs61bee.org/image/commits-and-blobs.png)
 ![image](https://gitlet.cs61bee.org/image/split_point.png)
-</details>  
+</blockquote></details>  
 
 <details>  
       <summary><h4>Commands and Sample Output</h4> Click to expand</summary><blockquote>
@@ -225,8 +225,8 @@ The main functionality that Gitlet supports is:
 13. java gitlet.Main reset [commit id]
 14. java gitlet.Main merge [branch name]
 ```    
-        
-        </blockquote></details>
+          </blockquote></details>
+          </blockquote></details>
 
         <details><summary><h5>Sample Outputs</h5>Click to expand</summary><blockquote>
 
