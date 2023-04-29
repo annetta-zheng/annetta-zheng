@@ -1,1 +1,6 @@
 theme: jekyll-theme-minimal
+
+# Name of your site (displayed in the header)
+name: "Annetta's blog"
+# Short bio or description (displayed in the header)
+description: ""
