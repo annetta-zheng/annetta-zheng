@@ -185,8 +185,10 @@ The main functionality that Gitlet supports is:
 6. Going remote, allowing collaboration with other people over the internet. 
 
 <details><summary><h4>Internal Structure</h4><sub> Click to expand</sub></summary>
-![image](https://gitlet.cs61bee.org/image/commits-and-blobs.png)
-![image](https://gitlet.cs61bee.org/image/split_point.png)
+
+<img align="center" width="1000" alt="image" src="https://gitlet.cs61bee.org/image/commits-and-blobs.png">
+<img align="center" width="1000" alt="image" src="https://gitlet.cs61bee.org/image/split_point.png">
+
 </details>
       
 <details><summary><h4>Commands, Outputs, and Edge Cases</h4><sub> Click to expand</sub></summary>
@@ -211,10 +213,10 @@ By starting up the program `java gitlet.Main init` , it will create a repo direc
       14. java gitlet.Main merge [branch name]
       ``` 
             
-      </details close>
+      
 </details close>    
 
-<details open><summary><h4>Sample Outputs</h4><sub> Click to expand</sub></summary>
+<details open><summary>Sample Outputs<sub> Click to expand</sub></summary>
 
       Input: `java gitlet.Main log`
 
@@ -260,7 +262,7 @@ By starting up the program `java gitlet.Main init` , it will create a repo direc
 </details close>  
    
 <details>  
-      <summary><h4>Edge Cases</h4><sub> Click to expand</sub></summary>
+      <summary>Edge Cases<sub> Click to expand</sub></summary>
 
 1. Conflict Files
 Any files modified in different ways in the current and given branches are in conflict. “Modified in different ways” can mean that the contents of both are changed and different from other, or the contents of one are changed and the other file is deleted, or the file was absent at the split point and has different contents in the given and current branches. In this case, replace the contents of the conflicted file with
