@@ -6,7 +6,6 @@
 Please share any feedback, or if you want to connect 😄 
 
 ------------------------------
-
 ## Catalogue
 ### Certifications
 - [Amazon QuickSight](#Amazon)
@@ -27,7 +26,7 @@ Please share any feedback, or if you want to connect 😄
 - [Enigma Cipher Machine](#Enigma-Machine)
 - [Ataxx Strategy Game](#Ataxx-Game)
 
-______________________________
+------------------------------
 ### Certifications
 #### Amazon
 - [x] [AWS - Introduction to Amazon Quicksight.pdf](https://github.com/annetta-zheng/annetta/files/11357701/137_3_3110879_1678134335_AWS.Course.Completion.Certificate.pdf)
@@ -35,8 +34,7 @@ ______________________________
 #### Meta
 - [x] [Meta - Introduction to Data Engineer.pdf](https://github.com/annetta-zheng/annetta/files/11357723/Coursera.6APZDH8JTYRQ.pdf)
 
-______________________________
-
+------------------------------
 ### Blog App 
 [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Full-Stack-Blog-App-with-React-Node.js-MySQL "Click for Repo!") A full stack Blog Application using React components on the front end, with a CRUD Application using NodeJS + Express + MySQL on the back end.
 
@@ -309,10 +307,14 @@ Once files have been updated according to the above, and the split point was not
  - If multiple candidates are at the same closest distance, choose any one of them as the split point. (We will make sure that this only happens in our test cases when the resulting merge commit is the same with any of the closest choices.)
       
 </details>  
+</details>
+  
+  
+  
       
 <p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
-______________________________
+------------------------------
 
 
 
