@@ -73,7 +73,7 @@ Sentiment Analysis and Music Recommendations Systems Description: a review-based
 <table>
   <tr>
     <td colspan="2"> Step 1. Convolutional Neural Network</td>
-    <td>Step 2. Stacked Autoencoder</td>
+    <td>Step 2. Autoencoder</td>
     <td>Step 3. Deep Neural Network</td>
   </tr>
   <tr>
@@ -82,12 +82,11 @@ Sentiment Analysis and Music Recommendations Systems Description: a review-based
       Results: 91.4% test accuracy</sub>
     </td>
     <td> 
-      <sub>with SGD on tokenized embeddings<br>
-      dimensionality reduction</sub>
+      <sub>with SGD</sub>
     </td>
     <td> 
       <sub>with regularization for the recommender<br>
-      Results: MAE below 0.4 and MSE below 40</sub>
+      Results: MAE below 0.4 & MSE below 40</sub>
     </td>
   </tr>
   <tr>
