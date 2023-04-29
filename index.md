@@ -45,9 +45,7 @@ ______________________________
 
 ### Blog App 
 [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Full-Stack-Blog-App-with-React-Node.js-MySQL)
-
 This is a for a full stack Blog Application using React components on the front end, with a CRUD Application using NodeJS + Express + MySQL on the back end.
-
 <details>
       <summary><h4>Key Features</h4> Click to expand</summary>
       
@@ -65,7 +63,7 @@ This is a for a full stack Blog Application using React components on the front 
 ------------------------------
 
 ### flask blog post web app
-[Code](https://github.com/annetta-zheng/flask-blog-post-web-app)
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/flask-blog-post-web-app)
 A Flask landing page with SQLAlchemy displaying blog posts and allowing users to login and register.
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/67286396/199391099-ee012a6b-7faa-4627-896c-4beaaa1e6735.png">
 
@@ -82,7 +80,7 @@ RESTful API Project with Redis Nameko.
 ------------------------------
 
 ### Sentiment Analysis and Music Recommendations Systems	
-[Code](https://github.com/annetta-zheng/music-recommender)
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/music-recommender)
 
 Sentiment Analysis and Music Recommendations Systems Description: a review-based recommendation system with natural language processing (NLP) and Collaborative Filtering on 1.5M review data and 75k music meta data, utilizing Python via keras framework on an AWS EC2 instance.
 
@@ -110,7 +108,7 @@ Sentiment Analysis and Music Recommendations Systems Description: a review-based
 <p align="right">^<a href="#Contact">Back to Top</a></p>
 ------------------------------
 ### Reviews Sentiment Analyzer
-[Sentiment Analyzer Code](https://github.com/annetta-zheng/sentiment_analysis)
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/sentiment_analysis)
 
 * Results:
     * Accuracy on the test set using the original dictionary: 80.20%
@@ -137,7 +135,7 @@ For the pegasos algorithm: best combination of T = 25 \lambda = 0.01, with valid
 ### Local Frog Predictor
 - EY 2022 Better Working World Data Challenge, Rank 74/1222. 
 
-[Notebook](https://github.com/annetta-zheng/Local-Frog-Predictor/blob/main/challenge.ipynb)
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Local-Frog-Predictor/blob/main/challenge.ipynb)
 
 The output will be a species distribution model of one species of frog. Species distribution models are one of the most widely used ecological tools, a cornerstone in many countries worldwide of environmental regulation and conservation.
 
@@ -149,8 +147,7 @@ The output will be a species distribution model of one species of frog. Species 
 ------------------------------
 
 ### Blocks Game
-[Blocks Puzzle Game Code](https://github.com/annetta-zheng/Blocks)
-
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Blocks)
 [Demo Game] (https://www.cbc.ca/kidscbc2/content/games/blocks-puzzle/index.html)
 
 ![image](https://inst.eecs.berkeley.edu/~cs61b/sp22/materials/proj/proj0/img/figure1.png)
@@ -162,8 +159,7 @@ The output will be a species distribution model of one species of frog. Species 
 ------------------------------
 
 ### Enigma Machine
-[Enigma Code](https://github.com/annetta-zheng/enigma)
-
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/enigma)
 For OOP, Data Structures in Java.
     
    The Settings Line and Input: 
@@ -194,8 +190,7 @@ For OOP, Data Structures in Java.
 ------------------------------
 
 ### Ataxx Game
-[Ataxx Code](https://github.com/annetta-zheng/Ataxx)
-
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Ataxx)
 Minmax algorithm, alpha-bata pruning.
 
 At the beginning of the game, we start with pieces in all four corners:
@@ -216,8 +211,7 @@ To make things even more interesting, you can place a set of blocks symmetricall
 ------------------------------
 
 ### Gitlet
-[Gitlet Code](https://github.com/annetta-zheng/Gitlet)
-
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Gitlet)
 A [version-control system](https://gitlet.cs61bee.org) is essentially a backup system for related collections of files. 
 
 The main functionality that Gitlet supports is:
@@ -227,17 +221,16 @@ The main functionality that Gitlet supports is:
 4. Maintaining related sequences of commits, called branches.
 5. Merging changes made in one branch into another.
 6. Going remote, allowing collaboration with other people over the internet. 
-
-##### Internal Structure
+<details>  
+      <summary><h4>Internal Structure</h4> Click to expand</summary>
 ![image](https://gitlet.cs61bee.org/image/commits-and-blobs.png)
 ![image](https://gitlet.cs61bee.org/image/split_point.png)
-
-##### Commands:
+</details>  
+<details>  
+      <summary><h5>Commands</h4> Click to expand</summary>
 By starting up the program `java gitlet.Main init`, it will create a repo directory and an initial commit through the command init().
 Based on the command run, structure of files will be saved.
-
-<details>  
-      <summary><h4>All Commands</h4> Click to expand</summary>
+      ##### All Commands
 
 ```
 1. java gitlet.Main add [file name]
@@ -257,7 +250,6 @@ Based on the command run, structure of files will be saved.
 ```
       
 </details>  
-
 <details>  
       <summary><h4>Sample Outputs</h4> Click to expand</summary>
 
