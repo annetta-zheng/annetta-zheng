@@ -186,8 +186,8 @@ The main functionality that Gitlet supports is:
 
 <details><summary><h4>Internal Structure</h4><sub> Click to expand</sub></summary>
 
-<img align="center" width="1000" alt="image" src="https://gitlet.cs61bee.org/image/commits-and-blobs.png">
-<img align="center" width="1000" alt="image" src="https://gitlet.cs61bee.org/image/split_point.png">
+<img align="center" width="1000" alt="image" src="https://user-images.githubusercontent.com/67286396/235281144-40d73837-3f8d-4875-a56f-0ae5edd419d1.png">
+<img align="center" width="1000" alt="image" src="https://user-images.githubusercontent.com/67286396/235281161-679d7983-5f40-4afd-b5cf-44ccb2b42601.png">
 
 </details>
       
