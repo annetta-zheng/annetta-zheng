@@ -44,7 +44,7 @@ ______________________________
 * Customized View: users can view the posts filtered by categories and get posts recommendation within the same category. 
 * Responsive View: pages adapt to different screen sizes and orientations.
 
-<img width="582" alt="image" src="https://user-images.githubusercontent.com/67286396/234439050-2da14148-ae4c-4d76-a797-e7a0ddfe6473.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/67286396/234439050-2da14148-ae4c-4d76-a797-e7a0ddfe6473.png">
 
 <p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
@@ -69,23 +69,18 @@ ______________________________
 
 Sentiment Analysis and Music Recommendations Systems Description: a review-based recommendation system with natural language processing (NLP) and Collaborative Filtering on 1.5M review data and 75k music meta data, utilizing Python via keras framework on an AWS EC2 instance.
 #### Key Features
-      
 1. Trained a convolutional neural network (CNN) for Sentiment Analysis on the review texts classifying the reviews as positive and negative, summarized keyword using NLTK, visualized word embeddings, and gained 91.4% test accuracy.
 <img width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599514-0c6ab305-e115-403f-bf68-8135e06a339b.png">
 
-      The most significant words in review texts:
-      
-<img width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599154-f5964ddd-9138-49c9-8e1b-fd5b70d0f30f.png">
+      The most significant words in review texts: <img width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599154-f5964ddd-9138-49c9-8e1b-fd5b70d0f30f.png">
 
-      The most significant words in summary texts:
-      
-<img width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599389-b72f1da1-b877-4eab-88c0-74d2500b6908.png">
+      The most significant words in summary texts: <img width="769" alt="image" src="https://user-images.githubusercontent.com/67286396/204599389-b72f1da1-b877-4eab-88c0-74d2500b6908.png">
 
 2. Trained a stacked Autoencoder with SGD on tokenized and embedded text matrix for dimensionality reduction.
-      <img width="432" alt="image" src="https://user-images.githubusercontent.com/67286396/204599574-3ae71217-c4e7-40e4-a336-ee15429344c3.png">
+      <img width="400" alt="image" src="https://user-images.githubusercontent.com/67286396/204599574-3ae71217-c4e7-40e4-a336-ee15429344c3.png">
       
 3. Trained a Deep Neural Network with regularization for the recommender with MAE below 0.4 and MSE below 40.
-      <img width="808" alt="image" src="https://user-images.githubusercontent.com/67286396/204600119-0ae46ce1-43fb-4221-9ae4-3b4507817285.png">
+      <img width="800" alt="image" src="https://user-images.githubusercontent.com/67286396/204600119-0ae46ce1-43fb-4221-9ae4-3b4507817285.png">
 
 <p align="right">^<a href="#Catalogue">Back to Top</a></p>
 
@@ -115,8 +110,7 @@ For the pegasos algorithm: best combination of T = 25 \lambda = 0.01, with valid
 ------------------------------
 
 ### Local Frog Predictor
-- EY 2022 Better Working World Data Challenge, Rank 74/1222. 
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Local-Frog-Predictor/blob/main/challenge.ipynb) 
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Local-Frog-Predictor/blob/main/challenge.ipynb) - EY 2022 Better Working World Data Challenge, Rank 74/1222. 
 
 A species distribution model of one species of frog. Species distribution models are one of the most widely used ecological tools, a cornerstone in many countries worldwide of environmental regulation and conservation.
 
@@ -127,7 +121,7 @@ A species distribution model of one species of frog. Species distribution models
 ------------------------------
 
 ### Blocks Game
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Blocks)
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Blocks) A Strategic Game.
 
 [Demo Game](https://www.cbc.ca/kidscbc2/content/games/blocks-puzzle/index.html "Click to Play!")
 
@@ -139,7 +133,7 @@ A species distribution model of one species of frog. Species distribution models
 ------------------------------
 
 ### Enigma Machine
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/enigma) For OOP, Data Structures in Java.
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/enigma) The encryption machine used in WWII. Topics covered: Object-oriented programming (OOP), Data Structures
     
    The Settings Line and Input: 
    ```
@@ -199,8 +193,8 @@ The main functionality that Gitlet supports is:
 ![image](https://gitlet.cs61bee.org/image/split_point.png)
 
 <details><summary><h4>Commands and Sample Output</h4></summary>
-By starting up the program `java gitlet.Main init`, it will create a repo directory and an initial commit through the command init(). Based on the command run, structure of files will be saved.
-    <details><summary><h5>All Commands</h5>Click to expand</summary>
+By starting up the program ```java gitlet.Main init```, it will create a repo directory and an initial commit through the command init(). Based on the command run, structure of files will be saved.
+      * <details><summary><h4>All Commands</h4> <sub> Click to expand</sub></summary>
 
       ``` 
       1. java gitlet.Main add [file name]
@@ -220,8 +214,8 @@ By starting up the program `java gitlet.Main init`, it will create a repo direct
       ``` 
     
           </details>
-          
-    <details><summary><h5>Sample Outputs</h5>Click to expand</summary>
+      
+      * <details><summary><h4>Sample Outputs</h4> <sub> Click to expand</sub></summary>
 
       ```java gitlet.Main log```
 
@@ -268,7 +262,7 @@ By starting up the program `java gitlet.Main init`, it will create a repo direct
 </details> 
 
 <details>  
-      <summary><h4>Edge Cases</h4> Click to expand</summary>
+      <summary><h4>Edge Cases</h4></summary>
 
 1. Conflict Files
 Any files modified in different ways in the current and given branches are in conflict. “Modified in different ways” can mean that the contents of both are changed and different from other, or the contents of one are changed and the other file is deleted, or the file was absent at the split point and has different contents in the given and current branches. In this case, replace the contents of the conflicted file with
