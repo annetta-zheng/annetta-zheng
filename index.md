@@ -141,7 +141,7 @@ A species distribution model of one species of frog. Species distribution models
 
 ### Blocks Game
 [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/annetta-zheng/Blocks "Click for Repo!") A Strategic Game. Topics covered: Object-oriented programming (OOP), Data Structures.
-[Demo Game](https://www.cbc.ca/kidscbc2/content/games/blocks-puzzle/index.html "Click to Play!")
+Play Here: [Game](https://www.cbc.ca/kidscbc2/content/games/blocks-puzzle/index.html "Click to Play!")
 
 ![image](https://inst.eecs.berkeley.edu/~cs61b/sp22/materials/proj/proj0/img/figure1.png)
 ![image](https://user-images.githubusercontent.com/67286396/157542546-95e9e541-91c9-4b81-9908-22c476265729.png)  
