@@ -2,19 +2,29 @@
 # theme: jekyll-theme-minimal
 remote_theme: yaoyao-liu/minimal-light
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme 
+  - jekyll-feed
+  # - yaoyao-liu/minimal-light
+  # - jekyll-seo-tag
+  # - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-last-modified-at
+  # - jekyll-spaceship
 
 # Basic Information 
 name: "Annetta's blog"
 description: ""
-title: Annetta 
+title: Annetta's Website
+github: annetta-zheng
 # position: Ph.D. Student
 # affiliation: Your Affiliation
 email: annetta@berkeley.edu
 linkedin: https://www.linkedin.com/in/junwen-zheng-789569195/
-github_link: https://annetta-zheng.github.io
+github_link: https://github.com/annetta-zheng/annetta-zheng.github.io
 
-toc: true
+# toc: true
+last-modified-at:
+    date-format: '%d-%b-%y'
 
 google_analytics: G-1WEYSPQBEB
 # Search Engine Optimization (SEO)
@@ -22,6 +32,8 @@ google_analytics: G-1WEYSPQBEB
 keywords: portfolio page
 description: github personal blog repo portfolio page
 
+favicon: ./img/favicon.png
+# favicon_dark: ./img/favicon.png
 
 # Gitalk
 gitalk:
@@ -29,9 +41,10 @@ gitalk:
   clientSecret: 00e30f039a0c0b46ceafcb9d55d397e2d23d9d59
   repo: annetta-zheng.github.io
   owner: annetta-zheng
-  
-  
+
+
 # The following files will be removed from the generated website.
 exclude:
   - README.md
   - LICENSE
+  - v1.md

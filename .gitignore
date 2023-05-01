@@ -1,0 +1,8 @@
+_site
+.jekyll-cache
+.sass-cache
+Gemfile.lock
+*.gem
+.DS_Store
+git-update.sh
+node_modules
