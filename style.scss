@@ -2,7 +2,6 @@
 ---
 @import "minimal-light";
 
-
 html, html[data-theme="light"] {
 	--link-color: #0070c9;
   --main-background-color: hsl(0, 0%, 100%);
@@ -47,7 +46,6 @@ dt, th{
   color: var(--dtth-color);
 }
 
-
 .container {
   position:relative; 
 }
@@ -66,7 +64,6 @@ code {
   color: rgb(0,1,0);
   background-color: var(--paper-color-less);
 }
-
 
 // index.html
 .main-hr {
@@ -97,7 +94,6 @@ code {
   text-shadow: 1px 1px #30C8EB;
   margin-left: 5px;
 }
-
 .homepage h3{
   text-shadow: 0.5px 0.5px #30C8EB;
 }
@@ -115,7 +111,6 @@ code {
   font: 12px sans-serif;
 }
 
-
 // music-recommender
 .mur-tbl {
   width: 100%;
@@ -126,6 +121,10 @@ code {
   text-align: center;
 }
 
+// search.html
+.hidden {
+  display: none;
+}
 
 
 

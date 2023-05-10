@@ -27,12 +27,10 @@ $(search_elem).bind('keyup', function() {
 			displayResults("No Result");
 		}
 		else {
-			displayResults(getResults(query));
-					
+			displayResults(getResults(query));				
 		}
 		$('#clear_search').show();	
 	}
-
 });
 
 $('#clear_search').click(function(e) {
@@ -51,7 +49,6 @@ function displayResults(docs) {
 		});
 		$('.posts').empty().append(li_s);
 	}
-	
 }
 
 function getResults(query) {

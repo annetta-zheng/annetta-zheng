@@ -18,31 +18,27 @@
         box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);">
     <a href="#" id="clear_search" class="hidden">Clear</a>
   </nav>
-  {% if site.post.length == 0 %}
-    <p>No Results.</p>
-  {%else%}
-    <ul class="hidden posts">
-      {% for post in site.posts %}
-      <li id="{{ post.url }}" class="hidden doc">
-        <a href="{{ post.url }}" class="hidden doc_title">{{ post.title }}</a>
-        <span class="hidden doc_content">{{ post.content }}</span>
-        <!-- <span class="hidden doc_tags">{{ post.tags }}</span> -->
-      </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-    <script type="text/javascript">
-      WebFontConfig = {
-        google: { families: [ 'Lato:300:latin', 'Averia+Serif+Libre:700:latin' ] }
-      };
-      (function() {
-        var wf = document.createElement('script');
-        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-        wf.type = 'text/javascript';
-        wf.async = 'true';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(wf, s);
-      })(); </script>
-    <script src="/js/search.js"></script>
+
+  <ul hidden class="hidden posts">
+    {% for post in site.posts %}
+    <li id="{{ post.url }}" class="hidden doc">
+      <a href="{{ post.url }}" class="hidden doc_title">{{ post.title }}</a>
+      <span class="hidden doc_content">{{ post.excerpt | truncate: 50 |replace: '&', '&amp;' }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+  <script type="text/javascript">
+    WebFontConfig = {
+      google: { families: [ 'Lato:300:latin', 'Averia+Serif+Libre:700:latin' ] }
+    };
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })(); </script>
+  <script src="/js/search.js"></script>
 </div>
