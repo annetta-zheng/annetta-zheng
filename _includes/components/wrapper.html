@@ -1,0 +1,28 @@
+<div class="wrapper" style="position:relative;">
+    <header>
+      {% if site.avatar %}
+      <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+      {% endif %} 
+      {%- include pages/intro.html -%}
+      {%- include pages/contact.html -%}  
+    </header>
+
+    <section style="margin-bottom: 100px;">
+      {{ content }}
+    </section>
+
+    <footer>  
+      <div class="container-fluid">
+        <div class="navbar fixed-bottom position-absolute">
+          {%- include components/footer.html -%}
+          <p>
+            {% for tag in site.tags %}
+            <a href="/tags/{{ tag[0] }}/" style="font-size: {{ tag[1] | size | times: 2 | plus: 10 }}px">
+                {{ tag[0] }} |
+            </a>
+            {% endfor %}
+        </p>
+        </div>
+      </div>
+    </footer>
+  </div>

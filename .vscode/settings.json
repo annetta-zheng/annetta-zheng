@@ -1,0 +1,6 @@
+{
+    "html.format.indentHandlebars": true,
+    "editor.stickyTabStops": true,
+    "markdown.extension.tableFormatter.normalizeIndentation": true,
+    "html.format.indentInnerHtml": true
+}

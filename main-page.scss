@@ -1,0 +1,57 @@
+// index.html
+.main-hr {
+    border: none;
+    border-top: 3px double;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    background-color: var(--paper-color);
+}
+.projects-hr {
+    border: none;
+    width: 90%;
+    margin-left: 5%;
+    border-color: #30C8EB;
+}
+.nocolor-hr {
+    border-top: 2px solid ;
+    width: 0%;
+}
+.homepage {
+    display: block;
+    background-color: var(--paper-color);
+    margin-bottom: auto;
+    align-items: center;
+}
+.homepage h1, h3{
+    text-shadow: 1px 1px #30C8EB;
+    margin-left: 5px;
+}
+
+.homepage h3{
+    text-shadow: 0.5px 0.5px #30C8EB;
+}
+.homepage-post {
+    margin: 10px;
+    background: var(--paper-color-less);
+}
+
+// _layout post
+.post-tag{
+    align-items: center;
+    background-color: #30C8EB;
+    color: white;
+    padding: 5px 5px;
+    font: 12px sans-serif;
+}
+
+
+// music-recommender
+.mur-tbl {
+    width: 100%;
+    background: var(--paper-color-less);
+    text-align: center;
+}
+.mur-tbl td{
+    text-align: center;
+}

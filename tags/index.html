@@ -1,0 +1,44 @@
+---
+layout: page
+title: All tags
+permalink: /tags/
+---
+<!-- <div style="display: flex;margin: auto;width:90%; text-align: center;justify-content: center;align-items: center; border: 1px dotted;">
+    {% include components/all-tags.html %}
+</div> -->
+<br>
+<div>
+  <div style="float: left;width: 30%">
+    <table style="border: 1px dashed;">
+      <tr>
+        <th style="text-align: center;">All Tags</th>
+        <!-- <th style="text-align: center">Count</th>  -->
+      </tr>
+      {% for tag in tags %}
+      <tr>
+        <td style="text-align: center"><a href="#{{ tag }}">{{ tag }}</a></td>
+        <!-- <td style="text-align: center"><a href="#{{ tag }}"><span class="count">{{ tag.c }}</span></a></td>  -->
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+  <div  style="float: right;">
+    {% for tag in tags %}
+      <h3 id="{{ tag }}">{{ tag }}</h3>
+      <ul class="tag">
+        {% for post in site.posts %}
+          {% if post.tags contains tag %}
+            <li>{% if post.link %}<a href="{{ post.link }}">
+              {% else %}<a href="{{ site.baseurl }}{{ post.url }}">
+              {% endif %}{{ post.title }}</a>
+            </li>
+            {% endif %}
+      {% endfor %}
+      </ul>
+    {% endfor %}
+    </div>
+</div>
+<div style="clear:both;"></div>
+
+
+

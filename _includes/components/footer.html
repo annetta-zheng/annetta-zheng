@@ -1,3 +1,32 @@
+<div style="position: static;">
+
+{% assign rawtags = "" %}
+{% for post in site.posts %}
+  {% assign ttags = post.tags | join:'|' | append:'|' %}
+  {% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% assign tags = "" %}
+{% for tag in rawtags %}
+	{% if tag != "" %}
+		{% if tags == "" %}
+			{% assign tags = tag | split:'|' %}
+		{% endif %}
+		{% unless tags contains tag %}
+			{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+		{% endunless %}
+	{% endif %}
+{% endfor %}
+<p>
+  {% for tag in tags %}
+  <a href="/tags/{{ tag }}/" style="font-size: 13px">
+      {{ tag}} |
+  </a>
+  {% endfor %}
+</p>
+<!-- style="font-size: {{ tag[1] | size | times: 2 | plus: 10 }}px"> -->
+
 <div class="social-icons">
     {% if site.google_scholar %}
     <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
@@ -29,4 +58,5 @@
     </a>
     {% endif %}
     </div>
-  <p><small>This project is maintained by Annetta.</p>
+<p><small>This project is maintained by Annetta.</p>
+</div>

@@ -1,20 +1,20 @@
-<small><a href="{{page.url}}" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;"></a></small>
-<!--  -->
+<div class="dark-toggle">
+    <strong><small><a href="{{page.url}}" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer; border: 1px dashed gray;padding-inline: 10px;padding-block: 10px;"></a></small></strong>
 
+    <script>
+        const toggle = document.getElementById('toggle');
+        const body = document.body;
 
-<script>
-    const toggle = document.getElementById('toggle');
-    const body = document.body;
+        toggle.addEventListener('input', (e) => {
+            const isChecked = e.target.checked;
+            
+            if(isChecked) {
+                body.classList.add('dark-theme');
+            } else {
+                body.classList.remove('dark-theme');
+            }
+        });
+    </script>
 
-    toggle.addEventListener('input', (e) => {
-        const isChecked = e.target.checked;
-        
-        if(isChecked) {
-            body.classList.add('dark-theme');
-        } else {
-            body.classList.remove('dark-theme');
-        }
-    });
-</script>
-
-<script src="./js/theme-switch.js"></script>
+    <script src="{{ site.baseurl }}/js/theme-switch.js"></script>
+</div>
