@@ -2,7 +2,7 @@
 layout: post
 title: Reviews Sentiment Analyzer	
 tags: machine-learning python keras text-analysis data-science 
-
+categories: [Data Science]
 # permalink: "blog/:categories/:title"
 ---
 A basic sentiment analyzer with different machine learning binary classification algorithms.

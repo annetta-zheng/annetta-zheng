@@ -3,18 +3,7 @@
     {%- include components/nav-bar.html -%}
     {%- include components/search.html -%}
 </div>
-<script>
-    const nav = document.querySelector('.header')
-    window.addEventListener('scroll', fixNav)
 
-    function fixNav() {
-        if(window.scrollY > header.offsetHeight) {
-            header.classList.add('active')
-        } else {
-            header.classList.remove('active')
-        }
-}
-</script>
 <style>
     .header{
         width: 100%;
@@ -85,7 +74,7 @@
         /* display: inline; */
         align-items: center; 
         background-color: var(--main-background-color);
-        width: 70%;
+        width: 80%;
         border: 1px solid wheat;
         border-radius: 2px;
         margin-top: 1px;
@@ -104,9 +93,13 @@
     #search-bar > ul li a:hover {
         color: #069;
     }
+    
     #search-bar > ul:empty{
         display: none;
-    }   
+    } 
+    #search-bar > ul:
+
+
     @media print, screen and (max-width: 960px) {
         .main-header{padding: 0px 0px;box-shadow: 0 0 0 15px var(--main-background-color);}
         .dark-toggle {margin-left: 0px;}
@@ -114,3 +107,7 @@
         #search-bar > ul li {padding: 0 0px;}
     } 
 </style>
+<script>
+    let p = document.getElementById('search-results');
+    p.removeAttribute("hidden");
+</script>

@@ -1,5 +1,6 @@
 <div id="search-bar">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
   <script src="/js/lunr.min.js"></script>
   <script src="/js/underscore-min.js"></script>
   <nav>
@@ -19,11 +20,11 @@
     <a href="#" id="clear_search" class="hidden">Clear</a>
   </nav>
 
-  <ul hidden class="hidden posts">
+  <ul hidden class="hidden posts" id = "search-results">
     {% for post in site.posts %}
     <li id="{{ post.url }}" class="hidden doc">
       <a href="{{ post.url }}" class="hidden doc_title">{{ post.title }}</a>
-      <span class="hidden doc_content">{{ post.excerpt | truncate: 50 |replace: '&', '&amp;' }}</span>
+      <!-- <span class="hidden doc_content">{{ post.excerpt | truncate: 50 |replace: '&', '&amp;' }}</span> -->
     </li>
     {% endfor %}
   </ul>

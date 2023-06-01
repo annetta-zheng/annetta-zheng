@@ -5,8 +5,8 @@ var search_elem = '#search';
 
 var docTemplate = _.template(
 	'<li id="<%= url %>" class="doc">' +
-      	'<span class="doc_date"><%= date %></span>' +
       	'<a href="<%= url %>" class="doc_title"><%= title %></a>' +
+		//   '<span class="doc_content"><%= content %></span>' +
     '</li>'
 	);
 
@@ -20,7 +20,7 @@ $(search_elem).bind('keyup', function() {
 	var query = $(this).val();
 	console.log(query);
 	if (query.length < 1) {
-		displayResults(getResults(""));
+		displayResults("");
 	}
 	else {
 		if (getResults(query).length < 1) {
@@ -61,6 +61,9 @@ function getResults(query) {
 		});
 		if (doc) docs.push(doc);
 	});
+	if (docs.length < 1) {
+		return "No Result";
+	}
 	return docs;
 }
 

@@ -1,3 +1,4 @@
+// modified based on the theme yaoyao-liu/minimal-light
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
@@ -312,7 +313,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:960px;
+  width:1024px;
   margin:0 auto;
 }
 
@@ -446,7 +447,7 @@ header ul a strong {
 }
 
 section {
-  width:650px;
+  width:700px;
   float:right;
   padding-top:4.0em;
   padding-bottom:50px;
@@ -472,7 +473,7 @@ footer {
   text-align:center;
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1024px) {
 
   .pub-row {
     display: flex; 
@@ -527,7 +528,7 @@ footer {
   
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1024px) {
   body {
     word-wrap:break-word;
     padding:15px;

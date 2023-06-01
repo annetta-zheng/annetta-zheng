@@ -2,7 +2,7 @@
 layout: post
 title: Sentiment Analysis and Music Recommendations Systems	
 tags: machine-learning python deep-learning keras text-analysis natural-language-processing data-science 
-
+categories: [Data Science]
 # permalink: "blog/:categories/:title"
 ---
 A review-based recommendation system with natural language processing (NLP) and Collaborative Filtering on 1.5M review data and 75k music meta data, utilizing Python via keras framework on an AWS EC2 instance.
