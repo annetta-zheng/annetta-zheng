@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Frog Distribution Predictor with Logistic Regression 
+title: Frog Distribution Predictor with Logistic Regression (Machine Learning)
 tags: machine-learning python keras logistic-regression data-science 
 categories: [Data Science, Python]
 # categories: data-science machine-learning python

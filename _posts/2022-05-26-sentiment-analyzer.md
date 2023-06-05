@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reviews Sentiment Analyzer	
+title: Reviews Sentiment Analyzer (Python)
 tags: machine-learning python keras text-analysis data-science 
 categories: [Data Science, Python]
 # permalink: "blog/:categories/:title"
