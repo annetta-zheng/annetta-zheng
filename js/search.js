@@ -6,7 +6,9 @@ var search_elem = '#search';
 var docTemplate = _.template(
 	'<li id="<%= url %>" class="doc">' +
       	'<a href="<%= url %>" class="doc_title"><%= title %></a>' +
-		//   '<span class="doc_content"><%= content %></span>' +
+		  '<span hidden="hidden" class="doc_content"><%= content %></span>' +
+		  '<span hidden="hidden" class="doc_tags"><%= tags %></span>' +
+		  '<span hidden="hidden" class="doc_tag"><%= tag %></span>' +
     '</li>'
 	);
 
@@ -69,11 +71,14 @@ function getResults(query) {
 
 function createIndex() {
 	index = lunr(function () {
-	    this.field('title', {boost: 10})
-	    this.field('content')
+	    this.field('title', {boost: 10});
+		this.field('categories', {boost: 50});
+	    this.field('content');
 	    this.field('date')
 		this.field('tags')
 	    this.ref('url')
+		this.field('tag')
+		this.field('description')
   });	
 }
 
@@ -83,8 +88,12 @@ function loadData() {
 		doc.date = $(this).find('.doc_date').text();
 		doc.content = $(this).find('.doc_content').text();
 		doc.title = $(this).find('.doc_title').text();
+		doc.categories = $(this).find('.doc_categories').text();
 		doc.tags = $(this).find('.doc_tags').text();
 		doc.url = $(this).find('.doc_title').attr('href');
+		doc.description = $(this).find('.doc_description').text();
+		doc.tag = $(this).find('.doc_tag').text();
+		
 		
 		index.add(doc);
 		posts.push(doc);

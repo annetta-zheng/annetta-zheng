@@ -20,7 +20,7 @@ title: Categories
   {% endfor %}    
 </div>
 {% endfor %}
-<!-- </table> -->
+
 </div>
 
 <style>
@@ -30,6 +30,7 @@ title: Categories
     padding: 10px 10px;
     border:0.5px dotted ;
     margin-right:10px;
+    margin-bottom:10px;
     align-items:center;
   }
   .archive-item {
