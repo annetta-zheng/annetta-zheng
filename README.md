@@ -5,11 +5,14 @@
 📫 How to reach me [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/junwen-zheng-789569195/ "My LinkedIn") [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:annetta@berkeley.edu "Write an Email")<br>
 Please share any feedback, or if you want to connect 😄 
 
+
 ------------------------------
 ## Catalogue
 ### Certifications
 - [Amazon QuickSight](#Amazon)
 - [Meta Data Engineer](#Meta)
+### Work Sample (Please reach out to me for the password!)
+- [Tableau](https://github.com/annetta-zheng/annetta-zheng.github.io/files/11657626/TableauWorkSample.zip)
 ### Deep Learning/Machine Learning
 - [Sentiment Analysis and Music Recommendations Systems](#Sentiment-Analysis-and-Music-Recommendations-Systems)
 - [Reviews Sentiment Analyzer](#Reviews-Sentiment-Analyzer)
