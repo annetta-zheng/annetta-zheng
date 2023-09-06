@@ -20,10 +20,13 @@ title: Categories
   {% endfor %}    
 </div>
 {% endfor %}
-
 </div>
-
+<br><br>
 <style>
+  #archives {
+    margin-bottom:10px;
+    padding: 10px 10px;
+  }
   .archive-group {
     float: left;
     width:45%;
@@ -40,7 +43,7 @@ title: Categories
     font-size:14px
   }
   .archive-item:nth-child(n+2) {
-        margin-top: -1px;
+    margin-top: -1px;
   }
 
 
