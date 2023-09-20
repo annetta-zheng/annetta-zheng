@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Frog Distribution Predictor with Logistic Regression (Machine Learning)
+title: EY Challenge - Frog Distribution Predictor with Logistic Regression (Machine Learning)
 tags: machine-learning python keras logistic-regression data-science 
-categories: [Data Science, Python]
+categories: [Data Science, Python, Hackthon/Challenge]
 # categories: data-science machine-learning python
 # permalink: "blog/:categories/:title"
 ---
