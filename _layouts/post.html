@@ -15,10 +15,10 @@ layout: default
     {% unless forloop.last %}&nbsp;{% endunless %}
     {% endfor %}
     </div>
-    <div class="post-tags" style = "font-family: 'Allerta Stencil';">
+    <div class="post-tags" style = "font-family: 'Chelsea Market';">
     Tags:
     {% for tag in page.tags %}
-    <a href="/tags/{{ tag }}/"><span class="post-tag" style="font-family: 'Chelsea Market'">{{ tag }}</span></a>
+    <a href="{{site.baseurl}}//tags/#{{ tag }}/">{{ tag }}</a>
     {% endfor %}
     </div>
     <br>
