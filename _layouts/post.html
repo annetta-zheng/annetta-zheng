@@ -3,8 +3,8 @@ layout: default
 ---
 <div class="post" >
   <article>
-    <h1>{{ page.title }}</h1>
-    <div class="post-categories">Categories:
+    <h1 style = "font-family: 'Fredericka the Great';">{{ page.title }}</h1>
+    <div class="post-categories" style = "font-family: 'Allerta Stencil';">Categories:
       {% if post %}
       {% assign categories = post.categories %}
     {% else %}
@@ -15,14 +15,14 @@ layout: default
     {% unless forloop.last %}&nbsp;{% endunless %}
     {% endfor %}
     </div>
-    <div class="post-tags">
+    <div class="post-tags" style = "font-family: 'Allerta Stencil';">
     Tags:
     {% for tag in page.tags %}
-    <a href="/tags/{{ tag }}/"><span class="post-tag">{{ tag }}</span></a>
+    <a href="/tags/{{ tag }}/"><span class="post-tag" style="font-family: 'Chelsea Market'">{{ tag }}</span></a>
     {% endfor %}
     </div>
     <br>
-    <div class="entry">
+    <div class="entry" style="font-family: 'Pangolin';">
       {{ content | toc }}
     </div>
     {% include components/gitalk.html %}
