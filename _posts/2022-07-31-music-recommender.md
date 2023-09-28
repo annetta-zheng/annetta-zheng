@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sentiment Analysis and Music Recommendations Systems	(Deep Learning)
-tags: machine-learning python deep-learning keras text-analysis natural-language-processing data-science 
+tags: machine-learning python keras text-analysis data-science deep-learning natural-language-processing
 categories: [Data Science, Python]
 # permalink: "blog/:categories/:title"
 ---
