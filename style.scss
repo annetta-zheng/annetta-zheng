@@ -12,8 +12,15 @@ html, html[data-theme="light"] {
   --dtth-color:#454545;
   --paper-color: hsl(40, 88%, 90%);
   --paper-color-less: hsl(40, 88%, 94%);
+  --background-img-url: url(https://media.giphy.com/media/QBj6FFNpXGYq8L8b3b/giphy.gif);
 }
-
+// neon violet 3ohs4ucXR6NYRxmpTa
+// XxpMbrdKEQtGXLBggd
+// V0VvUaWozIDTb7fQMz
+// 1gSoWWnnyQ28PTZaPc
+// <iframe src="https://giphy.com/embed/l8LI4rKim6mN6iZ6Sq" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/trippy-abstract-pi-slices-l8LI4rKim6mN6iZ6Sq">via GIPHY</a></p>
+// <iframe src="https://giphy.com/embed/QBj6FFNpXGYq8L8b3b" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/QBj6FFNpXGYq8L8b3b">via GIPHY</a></p>
+// <iframe src="https://giphy.com/embed/MFnBUPu3XscriCIhWi" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/australia-bush-medicine-aboriginal-arts-MFnBUPu3XscriCIhWi">via GIPHY</a></p>
 html[data-theme="dark"] {
   --link-color: #64d2ff;
   --main-background-color: hsl(235, 15%, 15%);
@@ -24,7 +31,10 @@ html[data-theme="dark"] {
   --dtth-color: #3db7f0;
   --paper-color: hsl(235, 15%, 23%);
   --paper-color-less: hsl(235, 15%, 18%);
+  --background-img-url:url(https://media.giphy.com/media/3ohs4ucXR6NYRxmpTa/giphy.gif);
 }
+// 3ohs4ucXR6NYRxmpTa
+// x45I8CY1Vs45G
 
 body {
 	background-color: var(--main-background-color);
@@ -101,6 +111,15 @@ code {
   margin: 10px;
   background: var(--paper-color-less);
 }
+// pages intro
+.intro-text {
+  background-color: #cccccc; 
+  background-image: var(--background-img-url); 
+  color: var(--main-text-color);
+  box-shadow: inset 0 0 6px 8px var(--main-background-color);
+}
+
+
 
 // _layout post
 .post-tag{
