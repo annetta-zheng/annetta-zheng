@@ -12,14 +12,14 @@ layout: default
       {% assign categories = page.categories %}
     {% endif %}
     {% for category in categories %}
-    <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+    <a href="{{ site.url }}{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
     {% unless forloop.last %}&nbsp;{% endunless %}
     {% endfor %}
     </div>
     <div class="post-tags" style = "font-family: 'Chelsea Market';">
     Tags:
     {% for tag in page.tags %}
-    <a href="{{site.baseurl}}/tags/{{ tag }}/">{{ tag }}</a>
+    <a href="{{ site.url }}{{site.baseurl}}/tags/{{ tag }}/">{{ tag }}</a>
     {% endfor %}
     </div>
     <br>
@@ -31,14 +31,14 @@ layout: default
   <div class="pagination">
     {% if page.previous.url %}
       <span class="prev" >
-        <a href="{{ site.baseurl }}{{ page.previous.url }}">
+        <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">
           ← Previous
         </a>
       </span>
     {% endif %}
     {% if page.next.url %}
       <span class="next" style="float: right;" >
-        <a href="{{ site.baseurl }}{{ page.next.url }}">
+        <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">
           Next →
         </a>
       </span>
