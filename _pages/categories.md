@@ -14,7 +14,7 @@ title: Categories
   {% for post in site.categories[category_name] %}
   <article class="archive-item">
     <h4>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+        <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
     </h4>
   </article>
   {% endfor %}    

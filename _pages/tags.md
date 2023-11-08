@@ -24,7 +24,7 @@ title: Categories
     <h5 id="#{{ tag[0] | slugify }}" class="text-uppercase">{{ tag_name }}</h5>
     <ul class="category-items">
         {% for post in tag[1] %}
-        <a href="{{ site.baseurl }}{{ post.url }}">
+        <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
             <li class="category-item">
                 {{ post.title }} - 
                 <span class="text-monospace">{{ post.date | date_to_string }}</span>
