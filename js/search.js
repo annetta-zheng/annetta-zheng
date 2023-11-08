@@ -94,7 +94,6 @@ function loadData() {
 		doc.description = $(this).find('.doc_description').text();
 		doc.tag = $(this).find('.doc_tag').text();
 		
-		
 		index.add(doc);
 		posts.push(doc);
 	});
