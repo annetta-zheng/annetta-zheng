@@ -1,5 +1,8 @@
 # This file contains configuration flags to customize my site
 # theme: jekyll-theme-minimal
+website: https://annetta-zheng.github.io
+basewebsite: /project-list
+
 remote_theme: yaoyao-liu/minimal-light
 plugins:
   - jekyll-remote-theme 
